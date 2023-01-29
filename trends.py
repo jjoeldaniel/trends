@@ -18,17 +18,8 @@ def is_invalid(message: str):
     
     else:
         return False
-
-def main(file='test_data.json'):
     
-    # Constants
-    MAX_LENGTH = 3
-    MIN_LENGTH = 1
-    
-    # Messages
-    messages = list()
-    
-    start = time.time()
+def read_data(file: str, messages: list ):
     
     # Load data
     with open(file) as f:
@@ -42,6 +33,20 @@ def main(file='test_data.json'):
             continue
         
         messages.append(text)
+
+def main(file='test_data.json'):
+    
+    # Constants
+    MAX_LENGTH = 3
+    MIN_LENGTH = 1
+    
+    # Messages
+    messages = list()
+    
+    start = time.time()
+    
+    # Read file data
+    read_data(file, messages)
 
     kw_model = KeyBERT(model='all-mpnet-base-v2')
     keywords = kw_model.extract_keywords('\nMessage\n'.join(str(e) for e in messages), keyphrase_ngram_range=(MIN_LENGTH, MAX_LENGTH), stop_words='english', use_mmr=True, diversity=0.7, top_n=5)
