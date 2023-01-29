@@ -24,6 +24,10 @@ venv\Scripts\activate.bat
 
 ```bash
 pip install -r requirements.txt
+
+# Highly recommend but not required to install the following
+# for increased performance
+pip install python-Levenshtein   
 ```
 
 ### **Run**
