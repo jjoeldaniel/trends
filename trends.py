@@ -3,6 +3,11 @@ import json
 import time
 
 def is_invalid(message: str):
+    '''Validates message
+    
+    Returns:
+        bool: True if message is invalid, False otherwise
+    '''
     
     # Messages that are empty
     if message == '':
@@ -20,6 +25,11 @@ def is_invalid(message: str):
         return False
     
 def read_data(file: str, messages: list ):
+    '''Reads data from JSON file
+    
+    Returns:
+        messages: list of messages
+    '''
     
     # Load data
     with open(file) as f:
