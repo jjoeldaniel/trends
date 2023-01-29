@@ -44,7 +44,7 @@ def read_data(file: str, messages: list ):
         
         messages.append(text)
 
-def main(file='test_data.json'):
+def main(file: str ):
     
     # Constants
     MAX_LENGTH = 3
