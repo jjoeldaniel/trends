@@ -57,9 +57,18 @@ def main(file: str ):
     
     # Read file data
     read_data(file, messages)
+    message_data = '\nMessage\n'.join(str(e) for e in messages)
 
     kw_model = KeyBERT(model='all-mpnet-base-v2')
-    keywords = kw_model.extract_keywords('\nMessage\n'.join(str(e) for e in messages), keyphrase_ngram_range=(MIN_LENGTH, MAX_LENGTH), stop_words='english', use_mmr=True, diversity=0.7, top_n=5)
+    keywords = kw_model.extract_keywords(
+        message_data,
+        keyphrase_ngram_range=(MIN_LENGTH, MAX_LENGTH),
+        stop_words='english',
+        use_mmr=True,
+        diversity=0.7,
+        top_n=5
+    )
+    
     words = [x[0] for x in keywords]
 
     end = time.time()
