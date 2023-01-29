@@ -1,5 +1,7 @@
 # discord-keywords
 
+> Analyze Discord message keywords
+
 ## **Running**
 
 ### **Create a virtual environment**
