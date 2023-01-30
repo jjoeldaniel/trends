@@ -83,10 +83,6 @@ def main(file: str ):
     print(f'Time taken: {round(end - start, 2)} seconds')
     print(f'Messages analyzed: {len(messages)}')
     print(f'Keywords: {words}')
-    
-    # Delete old file
-    if os.path.exists('./data/keywords.json'):
-        os.remove('./data/keywords.json')
         
     # Write to file
     with open('./data/keywords.json', 'w') as f:
