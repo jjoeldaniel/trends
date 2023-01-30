@@ -2,6 +2,10 @@
 #   schedule:
 #     - cron:  '30 6 * * 0'
 
+name: update keywords
+author: jjoeldaniel
+description: takes message data and outputs keywords
+
 on:
   workflow_dispatch
 
