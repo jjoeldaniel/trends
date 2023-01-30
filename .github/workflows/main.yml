@@ -37,7 +37,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "update keywords.json" -a
+          git commit -m "delete old keywords.json" -a
           
       - name: execute py script
         run: python trends.py
