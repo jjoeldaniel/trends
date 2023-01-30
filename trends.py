@@ -77,6 +77,9 @@ def main(file: str ):
     print(f'Time taken: {round(end - start, 2)} seconds')
     print(f'Messages analyzed: {len(messages)}')
     print(f'Keywords: {words}')
+    
+    with open('./data/keywords.json', 'w') as f:
+        f.write(json.dumps(words, indent=4))
 
 if __name__ == '__main__':
     main(file='./data/test_data.json')
