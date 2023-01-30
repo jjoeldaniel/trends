@@ -19,7 +19,7 @@ jobs:
     - name: Update output
       uses: test-room-7/action-update-file@v1
       with:
-        file-path: path/to/file
+        file-path: keywords.json
         commit-msg: Update resources
         github-token: ${{ secrets.TOKEN }}
     
