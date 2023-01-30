@@ -1,6 +1,7 @@
 from keybert import KeyBERT
 import json
 import time
+import os
 
 def is_invalid(message: str):
     '''Validates message
@@ -38,7 +39,7 @@ def read_data(file: str, messages: list ):
     count = 0
     for message in data['messages']:
         
-        if count == 350:
+        if count == 1000:
             break
         
         text = str(message['text']).strip()
@@ -82,7 +83,8 @@ def main(file: str ):
     print(f'Time taken: {round(end - start, 2)} seconds')
     print(f'Messages analyzed: {len(messages)}')
     print(f'Keywords: {words}')
-    
+        
+    # Write to file
     with open('./data/keywords.json', 'w') as f:
         f.write(json.dumps(words, indent=4))
 
