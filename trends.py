@@ -1,7 +1,6 @@
 from keybert import KeyBERT
 import json
 import time
-import os
 
 def is_invalid(message: str):
     '''Validates message
