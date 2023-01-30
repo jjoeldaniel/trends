@@ -38,7 +38,7 @@ def read_data(file: str, messages: list ):
     count = 0
     for message in data['messages']:
         
-        if count == 1000:
+        if count == 2000:
             break
         
         text = str(message['text']).strip()
