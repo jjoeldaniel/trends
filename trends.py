@@ -1,6 +1,7 @@
 from keybert import KeyBERT
 import json
 import time
+import os
 
 def is_invalid(message: str):
     '''Validates message
@@ -83,6 +84,11 @@ def main(file: str ):
     print(f'Messages analyzed: {len(messages)}')
     print(f'Keywords: {words}')
     
+    # Delete old file
+    if os.path.exists('./data/keywords.json'):
+        os.remove('./data/keywords.json')
+        
+    # Write to file
     with open('./data/keywords.json', 'w') as f:
         f.write(json.dumps(words, indent=4))
 
