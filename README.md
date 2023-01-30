@@ -13,7 +13,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-#### *Windows* 
+#### *Windows*
 
 > Note: Dependency issues may occur when using Windows. If you are using Windows, it is recommended to use WSL.
 
