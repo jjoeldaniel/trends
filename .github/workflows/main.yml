@@ -1,0 +1,25 @@
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 6 * * 0'
+
+jobs:
+  keyword_flow:
+    name: Update resources
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    - name: Install dependencies
+      run: pip install keybert && pip install python-Levenshtein
+      
+    - name: Run scripts
+      run: python3 ./trends.py
+      
+    - name: Update output
+      uses: test-room-7/action-update-file@v1
+      with:
+        file-path: path/to/file
+        commit-msg: Update resources
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+    
