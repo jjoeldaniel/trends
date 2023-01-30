@@ -35,7 +35,11 @@ def read_data(file: str, messages: list ):
     with open(file) as f:
         data = json.load(f)
 
+    count = 0
     for message in data['messages']:
+        
+        if count == 150:
+            break
         
         text = str(message['text']).strip()
         
@@ -43,6 +47,7 @@ def read_data(file: str, messages: list ):
             continue
         
         messages.append(text)
+        count += 1
 
 def main(file: str ):
     
