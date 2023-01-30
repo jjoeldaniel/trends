@@ -15,6 +15,8 @@ source venv/bin/activate
 
 #### *Windows*
 
+> Note: Dependency issues may occur when using Windows. If you are using Windows, it is recommended to use WSL.
+
 ```bash
 python -m venv venv
 venv\Scripts\activate.bat
