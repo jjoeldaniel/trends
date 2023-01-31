@@ -33,15 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install python-Levenshtein    
-
-      - name: delete old data
-        run: |
-          rm ./data/keywords.json
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "delete old keywords.json" -a
-          
+ 
       - name: execute py script
         run: python trends.py
           
