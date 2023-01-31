@@ -85,7 +85,8 @@ def main(file: str):
     json_data = {}
     info = {}
 
-    info['time_taken'] = end - start
+    info['current_time_epoch'] = end
+    info['time_taken'] = round(end - start, 3)
     info['messages_analyzed'] = len(messages)
 
     json_data['info'] = info
