@@ -77,7 +77,8 @@ def main(file: str):
         top_n=5
     )
 
-    words = [x[0] for x in keywords]
+    ordered_keywords = sorted(keywords, key=lambda x: x[1], reverse=True)
+    words = {word: score for word, score in ordered_keywords}
 
     end = time.time()
 
