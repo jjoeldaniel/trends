@@ -1,14 +1,14 @@
 {
     "info": {
-        "current_time_epoch": 1675156627.5808752,
-        "time_taken": 129.297,
-        "messages_analyzed": 2000
+        "current_time_epoch": 1675159619.6938248,
+        "time_taken": 84.811,
+        "messages_analyzed": 3000
     },
     "keywords": {
-        "interview long process": 0.5249,
-        "halloween message": 0.2409,
-        "https drive google": 0.2058,
-        "fixes clang tidy": 0.1191,
-        "think guy starred": 0.1043
+        "google interviews": 0.4833,
+        "waitting rejection": 0.424,
+        "cs major": 0.1804,
+        "halloween sleeps": 0.1559,
+        "learn vim": 0.1065
     }
 }
