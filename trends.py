@@ -81,14 +81,22 @@ def main(file: str):
 
     end = time.time()
 
-    # Print results
-    print(f'Time taken: {round(end - start, 2)} seconds')
-    print(f'Messages analyzed: {len(messages)}')
-    print(f'Keywords: {words}')
+    # Build JSON object
+    json_data = {}
+    info = {}
+
+    info['time_taken'] = end - start
+    info['messages_analyzed'] = len(messages)
+
+    json_data['info'] = info
+    json_data['keywords'] = words
 
     # Write to file
     with open('./data/keywords.json', 'w') as f:
-        f.write(json.dumps(words, indent=4))
+        f.write(json.dumps(json_data, indent=4))
+
+    # Print status
+    print('Success! Output written to ./data/keywords.json')
 
 
 if __name__ == '__main__':
