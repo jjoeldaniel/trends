@@ -39,3 +39,7 @@ pip install python-Levenshtein
 ```bash
 python3 trends.py
 ```
+
+---
+
+Created with 💖 by [*jjoeldaniel*](https://github.com/jjoeldaniel)
