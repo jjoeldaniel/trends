@@ -17,7 +17,9 @@ def is_invalid(message: str):
     elif message.startswith('http') and len(message.split(' ')) == 1:
         return True
     # Messages that are just emojis
-    elif message.startswith(':') and message.endswith(':') and len(message.split(' ')) == 1:
+    elif (message.startswith(':') and
+          message.endswith(':') and
+          len(message.split(' ')) == 1):
         return True
 
     else:
@@ -91,4 +93,3 @@ def main(file: str):
 
 if __name__ == '__main__':
     main(file='./data/test_data.json')
-
