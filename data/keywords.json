@@ -1,14 +1,14 @@
 {
     "info": {
-        "current_time_epoch": 1675125049.7763019,
-        "time_taken": 133.18,
+        "current_time_epoch": 1675156175.9244242,
+        "time_taken": 131.89,
         "messages_analyzed": 2000
     },
-    "keywords": [
-        "message google step",
-        "application interview schedule",
-        "secrets client build",
-        "components longer",
-        "sober ones"
-    ]
+    "keywords": {
+        "message google step": 0.5317,
+        "application interview schedule": 0.4288,
+        "secrets client build": 0.2211,
+        "components longer": 0.1084,
+        "sober ones": 0.0001
+    }
 }
