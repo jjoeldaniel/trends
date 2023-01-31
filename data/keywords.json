@@ -1,7 +1,14 @@
-[
-    "message google step",
-    "application interview schedule",
-    "secrets client build",
-    "components longer",
-    "sober ones"
-]
+{
+    "info": {
+        "current_time_epoch": 1675125049.7763019,
+        "time_taken": 133.18,
+        "messages_analyzed": 2000
+    },
+    "keywords": [
+        "message google step",
+        "application interview schedule",
+        "secrets client build",
+        "components longer",
+        "sober ones"
+    ]
+}
