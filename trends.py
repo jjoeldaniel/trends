@@ -67,7 +67,7 @@ def main(file: str):
     read_data(file, messages)
     message_data = '\nMessage\n'.join(str(e) for e in messages)
 
-    kw_model = KeyBERT(model='all-mpnet-base-v2')
+    kw_model = KeyBERT(model='paraphrase-mpnet-base-v2')
     keywords = kw_model.extract_keywords(
         message_data,
         keyphrase_ngram_range=(MIN_LENGTH, MAX_LENGTH),
