@@ -2,11 +2,17 @@
 #   schedule:
 #     - cron:  '30 6 * * 0'
 
+on: push
+name: Lint Python
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cclauss/Find-Python-syntax-errors-action@master
+
+on: workflow_dispatch
 name: update keywords
-
-on:
-  workflow_dispatch
-
 jobs:
   build:
     runs-on: ubuntu-latest
