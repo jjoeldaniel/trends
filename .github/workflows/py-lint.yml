@@ -1,9 +1,0 @@
-on: push
-name: Lint Python
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: cclauss/Find-Python-syntax-errors-action@master
-
