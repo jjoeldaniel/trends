@@ -1,14 +1,14 @@
 {
     "info": {
-        "current_time_epoch": 1675373362.8937058,
-        "time_taken": 32.587,
-        "messages_analyzed": 100
+        "current_time_epoch": 1675379690.47647,
+        "time_taken": 92.621,
+        "messages_analyzed": 3000
     },
     "keywords": {
-        "long process": 0.4413,
-        "ghost gg": 0.411,
-        "better message": 0.2138,
-        "left campus": 0.2001,
-        "https youtube": 0.1649
+        "google interviews": 0.4833,
+        "waitting rejection": 0.424,
+        "cs major": 0.1804,
+        "halloween sleeps": 0.1559,
+        "learn vim": 0.1065
     }
 }
