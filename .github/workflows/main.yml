@@ -37,7 +37,7 @@ jobs:
           pip install python-Levenshtein    
  
       - name: execute py script
-        run: python trends.py
+        run: python src/trends.py
           
       - name: commit files
         run: |
