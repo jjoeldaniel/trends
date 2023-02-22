@@ -37,7 +37,7 @@ pip install python-Levenshtein
 ### **Run**
 
 ```bash
-python3 trends.py
+python3 src/trends.py
 ```
 
 ---
