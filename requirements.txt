@@ -1,1 +1,2 @@
-bertopic=0.14.1
+bertopic==0.14.1
+nltk==3.8.1
