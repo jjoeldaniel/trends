@@ -1,6 +1,16 @@
-from keybert import KeyBERT
 import json
+import nltk
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
+from bertopic import BERTopic
 import time
+
+
+# Download NLTK resources (if not already downloaded)
+nltk.download('wordnet')
+
+# Load BERTopic model
+topic_model = BERTopic()
 
 
 def is_invalid(message: str):
@@ -26,6 +36,16 @@ def is_invalid(message: str):
         return False
 
 
+def lemmatize_text(text):
+    lemmatizer = WordNetLemmatizer()
+    lemmatized_text = []
+    for word, pos in nltk.pos_tag(nltk.word_tokenize(text)):
+        pos = pos[0].lower()
+        pos = pos if pos in ['a', 's', 'r', 'n', 'v'] else None
+        lemmatized_text.append(lemmatizer.lemmatize(word, pos=pos) if pos else word)
+    return " ".join(lemmatized_text)
+
+
 def read_data(file: str, messages: list):
     '''Reads data from JSON file
 
@@ -48,15 +68,14 @@ def read_data(file: str, messages: list):
         if is_invalid(text):
             continue
 
+        # lemmatize!!
+        text = lemmatize_text(text)
+
         messages.append(text)
         count += 1
 
 
 def main(file: str):
-
-    # Constants
-    MAX_LENGTH = 2
-    MIN_LENGTH = 1
 
     # Messages
     messages = list()
@@ -65,40 +84,19 @@ def main(file: str):
 
     # Read file data
     read_data(file, messages)
-    message_data = '\nMessage\n'.join(str(e) for e in messages)
+    message_data = ''.join(str(e) for e in messages)
+    topics, _ = topic_model.transform([message_data])
 
-    kw_model = KeyBERT(model='paraphrase-mpnet-base-v2')
-    keywords = kw_model.extract_keywords(
-        message_data,
-        keyphrase_ngram_range=(MIN_LENGTH, MAX_LENGTH),
-        stop_words='english',
-        use_mmr=True,
-        diversity=0.7,
-        top_n=5
-    )
+    # Get topic labels and probabilities
+    topic_labels = topics[0]
+    topic_probabilities = topics[1]
 
-    ordered_keywords = sorted(keywords, key=lambda x: x[1], reverse=True)
-    words = {word: score for word, score in ordered_keywords}
+    # Print topic labels and probabilities
+    print("Topic Labels: ", topic_labels)
+    print("Topic Probabilities: ", topic_probabilities)
 
     end = time.time()
-
-    # Build JSON object
-    json_data = {}
-    info = {}
-
-    info['current_time_epoch'] = end
-    info['time_taken'] = round(end - start, 3)
-    info['messages_analyzed'] = len(messages)
-
-    json_data['info'] = info
-    json_data['keywords'] = words
-
-    # Write to file
-    with open('./data/keywords.json', 'w') as f:
-        f.write(json.dumps(json_data, indent=4))
-
-    # Print status
-    print('Success! Output written to ./data/keywords.json')
+    print(round(end - start, 3))
 
 
 if __name__ == '__main__':
