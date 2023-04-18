@@ -1,1 +1,1 @@
-keybert==0.7.0
+bertopic=0.14.1
