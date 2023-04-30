@@ -1,6 +1,5 @@
 import json
 import nltk
-from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from bertopic import BERTopic
 import time
@@ -43,7 +42,8 @@ def lemmatize_text(text):
     for word, pos in nltk.pos_tag(nltk.word_tokenize(text)):
         pos = pos[0].lower()
         pos = pos if pos in ['a', 's', 'r', 'n', 'v'] else None
-        lemmatized_text.append(lemmatizer.lemmatize(word, pos=pos) if pos else word)
+        lemmatized_text.append(lemmatizer.lemmatize(
+            word, pos=pos) if pos else word)
     return " ".join(lemmatized_text)
 
 
