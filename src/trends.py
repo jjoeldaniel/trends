@@ -3,100 +3,119 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from bertopic import BERTopic
 import time
+import emoji
+import dateutil.parser as dp
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import re
 
 # Download NLTK resources (if not already downloaded)
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
+nltk.download("stopwords")
 
 # Load BERTopic model
 topic_model = BERTopic()
 
 
-def is_invalid(message: str):
-    '''Validates message
+def strip_text(text: str) -> str:
+    """Remove emojis, URLs, HTML tags, punctuation, and markdown"""
+
+    text = emoji.demojize(text).strip()
+
+    text = re.sub(r"http\S+", "", text)
+    text = re.sub(r"<\S+", "", text)
+    text = re.sub(r":\S+", "", text)
+    text = re.sub(r"__\S+", "", text)
+    text = re.sub(r"[^\w\s]", "", text)
+
+    text = lemmatize_text(text)
+
+    # Remove stopwords
+    text_tokens = word_tokenize(text)
+    tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
+    text = " ".join(tokens_without_sw)
+
+    return text.strip()
+
+
+def group_messages(json_file_path) -> list[str]:
+    """Loads and groups messages from a JSON file.
+
+    Each index is a string of messages from a given hour
+    with each message separated by a newline character.
 
     Returns:
-        bool: True if message is invalid, False otherwise
-    '''
+        list[str]: List of messages grouped by hour
+    """
 
-    # Messages that are empty
-    if message == '':
-        return True
-    # Messages that are just links
-    elif message.startswith('http') and len(message.split(' ')) == 1:
-        return True
-    # Messages that are just emojis
-    elif (message.startswith(':') and
-          message.endswith(':') and
-          len(message.split(' ')) == 1):
-        return True
+    # Load the JSON file into a list of dictionaries
+    with open(json_file_path, "r") as f:
+        messages = json.load(f)["messages"]
 
-    else:
-        return False
+    # Get the timestamp of the first message in epoch time
+    current_time = dp.parse(messages[0]["timestamp"]).timestamp()
+    current_messages = []
+
+    # Initialize the array to store the grouped messages
+    grouped_messages = []
+
+    # Iterate through the remaining messages
+    for message in messages:
+        # Get the text of the current message
+        text = strip_text(message["text"])
+
+        # Skip empty messages
+        if text == "":
+            continue
+
+        # Get the timestamp of the current message as a datetime object
+        timestamp = dp.parse(message["timestamp"]).timestamp()
+
+        # If the current message is within an hour of the previous message, add it to the current group
+        if abs(timestamp - current_time) < 3600:
+            current_messages.append(text)
+        # Otherwise, add the current group to the grouped messages array and start a new group
+        else:
+            grouped_messages.append("\n".join(current_messages))
+            current_messages = [text]
+
+        # Update the current time
+        current_time = timestamp
+
+    # Add the last group to the grouped messages array
+    grouped_messages.append("\n".join(current_messages))
+
+    return grouped_messages
 
 
-def lemmatize_text(text):
+def lemmatize_text(text) -> str:
     lemmatizer = WordNetLemmatizer()
     lemmatized_text = []
+
     for word, pos in nltk.pos_tag(nltk.word_tokenize(text)):
         pos = pos[0].lower()
-        pos = pos if pos in ['a', 's', 'r', 'n', 'v'] else None
-        lemmatized_text.append(lemmatizer.lemmatize(
-            word, pos=pos) if pos else word)
+        pos = pos if pos in ["a", "s", "r", "n", "v"] else None
+        lemmatized_text.append(lemmatizer.lemmatize(word, pos=pos) if pos else word)
+
     return " ".join(lemmatized_text)
 
 
-def read_data(file: str, messages: list):
-    '''Reads data from JSON file
-
-    Returns:
-        messages: list of messages
-    '''
-
-    # Load data
-    with open(file) as f:
-        data = json.load(f)
-
-    count = 0
-    for message in data['messages']:
-
-        if count == 3000:
-            break
-
-        text = str(message['text']).strip()
-
-        if is_invalid(text):
-            continue
-
-        # lemmatize!!
-        text = lemmatize_text(text)
-
-        messages.append(text)
-        count += 1
-
-
 def main(file: str):
-
-    # Messages
-    messages = list()
     start = time.time()
 
-    # Read file data
-    read_data(file, messages)
-    topics, _ = topic_model.fit_transform(messages)
+    # Messages
+    messages = group_messages(file)
 
-    # Print topic labels and probabilities
-    print("Topic Labels: ", len(topics))
-
-    # Print first topic
-    for i in range(0, 3):
-        print(topic_model.get_topic(i))
-        print('\n')
+    # Fit the topic model
+    # topics, _ = topic_model.fit_transform(messages)
 
     end = time.time()
-    print(round(end - start, 3))
+    print(f"\nTime Elapsed: {round(end - start, 3)}\n")
+
+    for m in messages:
+        print(m + "\n")
 
 
-if __name__ == '__main__':
-    main(file='./data/test_data.json')
+if __name__ == "__main__":
+    main(file="./data/test_data2.json")
