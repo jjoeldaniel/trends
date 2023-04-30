@@ -5,9 +5,10 @@ from nltk.stem import WordNetLemmatizer
 from bertopic import BERTopic
 import time
 
-
 # Download NLTK resources (if not already downloaded)
+nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 # Load BERTopic model
 topic_model = BERTopic()
@@ -79,21 +80,19 @@ def main(file: str):
 
     # Messages
     messages = list()
-
     start = time.time()
 
     # Read file data
     read_data(file, messages)
-    message_data = ''.join(str(e) for e in messages)
-    topics, _ = topic_model.transform([message_data])
-
-    # Get topic labels and probabilities
-    topic_labels = topics[0]
-    topic_probabilities = topics[1]
+    topics, _ = topic_model.fit_transform(messages)
 
     # Print topic labels and probabilities
-    print("Topic Labels: ", topic_labels)
-    print("Topic Probabilities: ", topic_probabilities)
+    print("Topic Labels: ", len(topics))
+
+    # Print first topic
+    for i in range(0, 3):
+        print(topic_model.get_topic(i))
+        print('\n')
 
     end = time.time()
     print(round(end - start, 3))
