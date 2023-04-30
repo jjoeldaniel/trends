@@ -72,10 +72,12 @@ def group_messages(json_file_path) -> list[str]:
         # Get the timestamp of the current message as a datetime object
         timestamp = dp.parse(message["timestamp"]).timestamp()
 
-        # If the current message is within an hour of the previous message, add it to the current group
+        # If the current message is within an hour of the previous message,
+        # add it to the current group
         if abs(timestamp - current_time) < 3600:
             current_messages.append(text)
-        # Otherwise, add the current group to the grouped messages array and start a new group
+        # Otherwise, add the current group to the grouped messages array
+        # and start a new group
         else:
             grouped_messages.append("\n".join(current_messages))
             current_messages = [text]
