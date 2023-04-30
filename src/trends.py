@@ -33,7 +33,7 @@ def strip_text(text: str) -> str:
 
     # Remove stopwords
     text_tokens = word_tokenize(text)
-    tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
+    tokens_without_sw = [word for word in text_tokens if word not in stopwords.words()]
     text = " ".join(tokens_without_sw)
 
     return text.strip()
