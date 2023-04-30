@@ -19,7 +19,17 @@ topic_model = BERTopic()
 
 
 def strip_text(text: str) -> str:
-    """Remove emojis, URLs, HTML tags, punctuation, and markdown"""
+    """Strips text of non-essential characters.
+
+    Performs the following operations:
+        - Remove emojis
+        - Remove URLs
+        - Remove HTML tags
+        - Remove punctuation
+
+    Returns:
+        str: Cleaned text
+    """
 
     text = emoji.demojize(text).strip()
 
