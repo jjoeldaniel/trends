@@ -102,6 +102,12 @@ def group_messages(json_file_path) -> list[str]:
 
 
 def lemmatize_text(text) -> str:
+    """Lemmatizes text
+
+    Returns:
+        str: Lemmatized text
+    """
+
     lemmatizer = WordNetLemmatizer()
     lemmatized_text = []
 
