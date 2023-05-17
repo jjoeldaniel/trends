@@ -105,7 +105,7 @@ def build_history(messages: list[(str, str)]) -> list[list[(str, str)]]:
         cosine_score = util.cos_sim(embeddings1, embeddings2)
 
         # Threshhold
-        if cosine_score >= 0.55:
+        if cosine_score >= 0.35:
             current_conversation.append((messages[k][0], messages[k][1]))
         else:
             conversations.append(current_conversation.copy())
@@ -152,4 +152,4 @@ def main(file: str):
 
 
 if __name__ == "__main__":
-    main(file="./data/test_data2.json")
+    main(file="./data/test_data.json")
