@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 import time
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Download NLTK resources (if not already downloaded)
 nltk.download("punkt")
@@ -24,10 +24,9 @@ def strip_text(text: str) -> str:
     text = text.strip()
 
     # Remove stopwords
-    stop_words = set(stopwords.words('english'))
+    stop_words = set(stopwords.words("english"))
     word_tokens = word_tokenize(text)
-    text = " ".join(
-        [w for w in word_tokens if not w.lower() in stop_words])
+    text = " ".join([w for w in word_tokens if w.lower() not in stop_words])
 
     if len(text.split()) <= 1:
         text = ""
@@ -61,7 +60,7 @@ def group_messages(json_file_path) -> list[(str, str)]:
         text = strip_text(message["text"])
 
         # Skip empty and one-worded messages
-        if text == "" or len(text.split(' ')) == 1:
+        if text == "" or len(text.split(" ")) == 1:
             continue
 
         message_to_be_added = (authors[message["author_id"]], text)
@@ -71,10 +70,14 @@ def group_messages(json_file_path) -> list[(str, str)]:
 
 
 def lemmatize_text(text) -> str:
-    """Lemmatizes text
+    """Lemmatizes text using NLTK.
 
-    Returns:
-        str: Lemmatized text
+    This sorts words into their respective parts of speech and lemmatizes them,
+    improving the accuracy of the cosine similarity function.
+
+    Keyword arguments:
+    `text` -- text to be lemmatized
+    Return: lemmatized text
     """
 
     lemmatizer = WordNetLemmatizer()
@@ -83,13 +86,21 @@ def lemmatize_text(text) -> str:
     for word, pos in nltk.pos_tag(nltk.word_tokenize(text)):
         pos = pos[0].lower()
         pos = pos if pos in ["a", "s", "r", "n", "v"] else None
-        lemmatized_text.append(lemmatizer.lemmatize(
-            word, pos=pos) if pos else word)
+        lemmatized_text.append(lemmatizer.lemmatize(word, pos=pos) if pos else word)
 
     return " ".join(lemmatized_text)
 
 
-def build_history(messages: list[(str, str)]) -> list[list[(str, str)]]:
+def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
+    """Builds a list of conversations
+
+    Keyword arguments:
+    `messages` -- list of messages in the form (author, message) and sorted by
+    time
+
+    Return: list of conversations grouped by cosine similarity
+    """
+
     conversations = []
     current_conversation = []
     i = 0
@@ -126,26 +137,25 @@ def main(file: str):
     messages = group_messages(file)
 
     # List of conversations (which are list[(str, str)])
-    history = build_history(messages)
+    history = build_conversations(messages)
 
     # Iterate through all conversations
     for i, conversation in enumerate(history):
-
         # Each index of json_data is an array of messages with a
         # author and text field
 
         author_messages = []
         for messages in conversation:
             x = {}
-            x['author'] = messages[0]
-            x['message'] = messages[1]
+            x["author"] = messages[0]
+            x["message"] = messages[1]
             author_messages.append(x)
 
         json_data[i] = author_messages
 
     # Write to output file
-    file_name = file.replace('test', 'output')
-    with open(file_name, 'w') as f:
+    file_name = file.replace("test", "output")
+    with open(file_name, "w") as f:
         f.write(json.dumps(json_data, indent=4))
 
     print(f"\nTime Elapsed: {round(time.time() - start, 3)}")
