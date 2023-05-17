@@ -5,7 +5,7 @@ from nltk.stem.snowball import SnowballStemmer
 import time
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("all-mpnet-base-v2")
 
 # Download NLTK resources (if not already downloaded)
 nltk.download("punkt")
@@ -23,7 +23,7 @@ def strip_text(text: str) -> str:
     sent_detector = nltk.data.load("tokenizers/punkt/english.pickle")
     text = "\n-----\n".join(sent_detector.tokenize(text.strip()))
 
-    return text.strip()
+    return stemm_text(text).strip()
 
 
 def group_messages(json_file_path) -> list[(str, str)]:
@@ -109,7 +109,7 @@ def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
         cosine_score = util.cos_sim(embeddings1, embeddings2)
 
         # Threshhold
-        if cosine_score >= 0.2:
+        if cosine_score >= 0.1:
             current_conversation.append((messages[k][0], messages[k][1]))
         else:
             # Only add to conversations if there are 2 or more messages
