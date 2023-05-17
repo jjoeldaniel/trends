@@ -109,7 +109,7 @@ def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
         cosine_score = util.cos_sim(embeddings1, embeddings2)
 
         # Threshhold
-        if cosine_score >= 0.1:
+        if cosine_score >= 0.2:
             current_conversation.append((messages[k][0], messages[k][1]))
         else:
             # Only add to conversations if there are 2 or more messages
@@ -126,33 +126,24 @@ def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
 def main(file: str):
     start = time.time()
 
-    # Output data
-    json_data = {}
-
     # List of pairs (author, message)
     messages = group_messages(file)
 
     # List of conversations (which are list[(str, str)])
     history = build_conversations(messages)
 
-    # Iterate through all conversations
+    # Convert conversations to JSON data
+    json_data = []
     for i, conversation in enumerate(history):
-        # Each index of json_data is an array of messages with a
-        # author and text field
-
         author_messages = []
-        for messages in conversation:
-            x = {}
-            x["author"] = messages[0]
-            x["message"] = messages[1]
-            author_messages.append(x)
+        for message in conversation:
+            author_messages.append({"author": message[0], "message": message[1]})
+        json_data.append(author_messages)
 
-        json_data[i] = author_messages
-
-    # Write to output file
+    # Write JSON data to output file
     file_name = file.replace("test", "output")
     with open(file_name, "w") as f:
-        f.write(json.dumps(json_data, indent=4))
+        json.dump(json_data, f, indent=4)
 
     print(f"\nTime Elapsed: {round(time.time() - start, 3)}")
 
