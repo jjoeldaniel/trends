@@ -1,8 +1,7 @@
 import json
 import nltk
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+import nltk.data
+from nltk.stem.snowball import SnowballStemmer
 import time
 from sentence_transformers import SentenceTransformer, util
 
@@ -21,17 +20,10 @@ def strip_text(text: str) -> str:
         str: Cleaned text
     """
 
-    text = text.strip()
+    sent_detector = nltk.data.load("tokenizers/punkt/english.pickle")
+    text = "\n-----\n".join(sent_detector.tokenize(text.strip()))
 
-    # Remove stopwords
-    stop_words = set(stopwords.words("english"))
-    word_tokens = word_tokenize(text)
-    text = " ".join([w for w in word_tokens if w.lower() not in stop_words])
-
-    if len(text.split()) <= 1:
-        text = ""
-
-    return lemmatize_text(text)
+    return text.strip()
 
 
 def group_messages(json_file_path) -> list[(str, str)]:
@@ -69,26 +61,18 @@ def group_messages(json_file_path) -> list[(str, str)]:
     return data
 
 
-def lemmatize_text(text) -> str:
-    """Lemmatizes text using NLTK.
+def stemm_text(text) -> str:
+    """Stemms text using NLTK's Snowball stemmer.
 
-    This sorts words into their respective parts of speech and lemmatizes them,
-    improving the accuracy of the cosine similarity function.
+    Stemmers remove morphological affixes from words, leaving
+    only the word stem.
 
     Keyword arguments:
-    `text` -- text to be lemmatized
-    Return: lemmatized text
+    `text` -- text to be stemmed
+    Return: stemmed text
     """
 
-    lemmatizer = WordNetLemmatizer()
-    lemmatized_text = []
-
-    for word, pos in nltk.pos_tag(nltk.word_tokenize(text)):
-        pos = pos[0].lower()
-        pos = pos if pos in ["a", "s", "r", "n", "v"] else None
-        lemmatized_text.append(lemmatizer.lemmatize(word, pos=pos) if pos else word)
-
-    return " ".join(lemmatized_text)
+    return SnowballStemmer("english").stem(text)
 
 
 def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
@@ -105,21 +89,33 @@ def build_conversations(messages: list[(str, str)]) -> list[list[(str, str)]]:
     current_conversation = []
     i = 0
 
-    while i < len(messages) - 1:
+    while i < len(messages):
         embeddings1 = model.encode(messages[i][1], convert_to_tensor=True)
 
         if (messages[i][0], messages[i][1]) not in current_conversation:
             current_conversation.append((messages[i][0], messages[i][1]))
 
         k = i + 1
+
+        # Check if k is out of bounds
+        if k >= len(messages):
+            # Only add to conversations if there are 2 or more messages
+            if len(current_conversation) > 1:
+                conversations.append(current_conversation.copy())
+
+            break
+
         embeddings2 = model.encode(messages[k][1], convert_to_tensor=True)
         cosine_score = util.cos_sim(embeddings1, embeddings2)
 
         # Threshhold
-        if cosine_score >= 0.35:
+        if cosine_score >= 0.2:
             current_conversation.append((messages[k][0], messages[k][1]))
         else:
-            conversations.append(current_conversation.copy())
+            # Only add to conversations if there are 2 or more messages
+            if len(current_conversation) > 1:
+                conversations.append(current_conversation.copy())
+
             current_conversation.clear()
 
         i += 1
@@ -162,4 +158,4 @@ def main(file: str):
 
 
 if __name__ == "__main__":
-    main(file="./data/test_data.json")
+    main(file="./data/test_data2.json")
