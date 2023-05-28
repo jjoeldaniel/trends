@@ -1574,6 +1574,8 @@ name = "topics"
 version = "0.1.0"
 dependencies = [
  "rust-bert",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
