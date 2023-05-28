@@ -1,8 +1,9 @@
 import json
+import time
 import nltk
 import nltk.data
 from nltk.stem.snowball import SnowballStemmer
-import time
+from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer, util
 
 model = SentenceTransformer("all-mpnet-base-v2")
@@ -131,19 +132,28 @@ def main(file: str):
 
     # List of conversations (which are list[(str, str)])
     history = build_conversations(messages)
+    docs: list[str] = []
+    for (x, y) in messages:
+        docs.append()
 
     # Convert conversations to JSON data
     json_data = []
     for i, conversation in enumerate(history):
         author_messages = []
         for message in conversation:
-            author_messages.append({"author": message[0], "message": message[1]})
+            author_messages.append(
+                {"author": message[0], "message": message[1]})
+            docs.append(str(message))
         json_data.append(author_messages)
 
     # Write JSON data to output file
-    file_name = file.replace("test", "output")
-    with open(file_name, "w") as f:
-        json.dump(json_data, f, indent=4)
+    # file_name = file.replace("test", "output")
+    # with open(file_name, "w") as f:
+    #     json.dump(json_data, f, indent=4)
+
+    topic_model = BERTopic()
+    topics, _ = topic_model.fit_transform(docs)
+    print(topic_model.get_topic(0))
 
     print(f"\nTime Elapsed: {round(time.time() - start, 3)}")
 
