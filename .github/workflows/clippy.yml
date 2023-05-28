@@ -3,10 +3,10 @@ name: Flake8 Test
 on:
   push:
     paths:
-      - '**.py'
+      - '**.rs'
   pull_request:
     paths:
-      - '**.py'
+      - '**.rs'
 jobs:
   clippy_check:
     runs-on: ubuntu-latest
