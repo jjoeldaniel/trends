@@ -26,7 +26,7 @@ struct Message {
     text: String,
 }
 
-fn read_input(file_path: &str) -> Vec<String> {
+fn read_input(file_path: &str) -> Vec<String> { 
 
     let _en_stemmer = Stemmer::create(Algorithm::English);
 
@@ -41,18 +41,18 @@ fn read_input(file_path: &str) -> Vec<String> {
         for message in messages {
             
             // clear empty
-            if message.text != "" {
+            if !message.text.is_empty() {
                 inputs.push(String::from(&message.text));
             }
 
         }  
     }
-    return inputs;
+    inputs
 }
 
 fn extract_keywords(inputs: Vec<String>) -> Result<Vec<Vec<Keyword>>, RustBertError> {
     let keyword_extraction_model = KeywordExtractionModel::new(Default::default())?;
-    return Ok(keyword_extraction_model.predict(&[inputs.join("\n")])?);
+    keyword_extraction_model.predict(&[inputs.join("\n")])
 }
 
 fn main() {
