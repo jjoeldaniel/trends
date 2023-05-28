@@ -1,4 +1,5 @@
 use std::fs;
+use rust_bert::{pipelines::keywords_extraction::{KeywordExtractionModel, Keyword}, RustBertError};
 use std::collections::HashMap;
 use serde::{Deserialize, Serialize};
 
@@ -24,21 +25,40 @@ struct Message {
     text: String,
 }
 
-fn read_input(file_path: &str) {
+fn read_input(file_path: &str) -> Vec<String> {
 
     let json_contents = fs::read_to_string(file_path).expect("Error reading file");
     let message_data: MessageData = serde_json::from_str(&json_contents).expect("Error deserializing JSON");
+    let mut inputs: Vec<String> = Vec::new();
 
-    if let Some(messages) = message_data.messages.get(..5) {
+    if let Some(messages) = message_data.messages.get(..) {
         for message in messages {
-            println!("Timestamp: {}", message.timestamp);
-            println!("Author ID: {}", message.author_id);
-            println!("Text: {}\n", message.text);
+            
+            // clear empty
+            if message.text != "" {
+                inputs.push(String::from(&message.text));
+            }
+
         }  
     }
+    return inputs;
+}
+
+fn extract_keywords(inputs: Vec<String>) -> Result<Vec<Vec<Keyword>>, RustBertError> {
+    let keyword_extraction_model = KeywordExtractionModel::new(Default::default())?;
+    return Ok(keyword_extraction_model.predict(&[inputs.join("\n")])?);
 }
 
 fn main() {
-    read_input("./data/test_data2.json");
+    let messages = read_input("./data/test_data2.json");
+    let keywords = extract_keywords(messages);
+
+    if let Ok(n) = keywords {
+        for m in n {
+            for k in m {
+                println!("{:?}", k);
+            }
+        } 
+    }
 }
 
