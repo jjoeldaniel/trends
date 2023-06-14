@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+use serde_derive::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::fs;
 
@@ -47,7 +47,5 @@ fn read_input(file_path: &str) -> Vec<String> {
 
 fn main() {
     let messages = read_input("./data/data.json");
-
-    // Output to ./data/output.txt
     fs::write("./data/output.txt", messages.join("\n")).expect("Unable to write file");
 }
