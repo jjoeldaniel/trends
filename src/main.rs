@@ -1,16 +1,13 @@
-use std::fs;
-use rust_bert::{pipelines::keywords_extraction::{KeywordExtractionModel, Keyword}, RustBertError};
-use std::collections::HashMap;
 use serde::{Deserialize, Serialize};
-use rust_stemmers::{Algorithm, Stemmer};
-
+use std::collections::HashMap;
+use std::fs;
 
 #[derive(Serialize, Deserialize)]
 struct MessageData {
     channel_id: String,
     channel_name: String,
-    authors: HashMap<String, Author>,
-    messages: Vec<Message>
+    authors: HashMap<String, Author>, // author_id -> Author
+    messages: Vec<Message>,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -26,45 +23,31 @@ struct Message {
     text: String,
 }
 
-fn read_input(file_path: &str) -> Vec<String> { 
+fn read_input(file_path: &str) -> Vec<String> {
+    let json_contents = fs::read_to_string(file_path)
+        .expect("Error reading file")
+        .to_lowercase();
 
-    let _en_stemmer = Stemmer::create(Algorithm::English);
-
-    let json_contents = fs::read_to_string(file_path).expect("Error reading file").to_lowercase();
-
-    // TODO: Stem messages
-
-    let message_data: MessageData = serde_json::from_str(&json_contents).expect("Error deserializing JSON");
+    let message_data: MessageData =
+        serde_json::from_str(&json_contents).expect("Error deserializing JSON");
     let mut inputs: Vec<String> = Vec::new();
 
     if let Some(messages) = message_data.messages.get(..) {
         for message in messages {
-            
             // clear empty
             if !message.text.is_empty() {
-                inputs.push(String::from(&message.text));
+                let x =
+                    message_data.authors[&message.author_id].name.clone() + ": " + &message.text;
+                inputs.push(x);
             }
-
-        }  
+        }
     }
     inputs
 }
 
-fn extract_keywords(inputs: Vec<String>) -> Result<Vec<Vec<Keyword>>, RustBertError> {
-    let keyword_extraction_model = KeywordExtractionModel::new(Default::default())?;
-    keyword_extraction_model.predict(&[inputs.join("\n")])
-}
-
 fn main() {
     let messages = read_input("./data/data.json");
-    let keywords = extract_keywords(messages);
 
-    if let Ok(n) = keywords {
-        for m in n {
-            for k in m {
-                println!("{:?}\n", k);
-            }
-        } 
-    }
+    // Output to ./data/output.txt
+    fs::write("./data/output.txt", messages.join("\n")).expect("Unable to write file");
 }
-
