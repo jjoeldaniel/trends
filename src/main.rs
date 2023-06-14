@@ -47,5 +47,5 @@ fn read_input(file_path: &str) -> Vec<String> {
 
 fn main() {
     let messages = read_input("./data/data.json");
-    fs::write("./data/output.txt", messages.join("\n")).expect("Unable to write file");
+    fs::write("./data/filtered_data.txt", messages.join("\n")).expect("Unable to write file");
 }
