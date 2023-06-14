@@ -1,3 +1,4 @@
+import json
 import google.generativeai as palm
 from dotenv import load_dotenv
 import os
@@ -40,12 +41,15 @@ def get_trends(messages: str) -> list:
     Topics: """
 
     response = palm.generate_text(**defaults, prompt=prompt)
-    print(response.result)
+    return response.result.split(",")
 
 
 def main():
     messages = read_data()
-    get_trends(messages)
+    trends = {"trends": get_trends(messages)}
+
+    with open("./data/trends.json", "w") as f:
+        json.dump(trends, f, indent=4, sort_keys=True)
 
 
 if __name__ == "__main__":
