@@ -3,10 +3,10 @@
 #     - cron:  '30 6 * * 0'
 
 on: workflow_dispatch
-name: update keywords
+name: update trends
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
 
       - name: checkout repo content
@@ -15,14 +15,14 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: setup virtual environment
         run: |
           python3 -m venv venv
           source venv/bin/activate
 
-      - name: cache environment
+      - name: cache python environment
         id: cached-dependencies
         uses: actions/cache@v3
         with:
@@ -34,17 +34,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install python-Levenshtein    
+
+      - name: check Cargo.toml
+        run: cargo check
+
+      - name: install Rust packages
+        if: steps.check-Cargo.toml.outputs.status == 0
+        run: cargo install --path .
+
+      - name: run rust preprocesser
+        run: cargo run -r
  
       - name: execute py script
-        run: python src/trends.py
+        run: python3 python/main.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "update keywords.json" -a
+          git commit -m "update trends" -a
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
