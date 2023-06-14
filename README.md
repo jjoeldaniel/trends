@@ -6,8 +6,17 @@
 
 ## **Running**
 
+### Preprocess data
+
 ```bash
 cargo run
+```
+
+### Analyze trends
+
+```bash
+python3 python/main.py
+
 ```
 
 ---
