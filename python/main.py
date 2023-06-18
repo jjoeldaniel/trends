@@ -13,7 +13,7 @@ def read_data() -> str:
     return "\n".join(lines)
 
 
-def is_valid_response(response: palm.types.CompletionResponse) -> bool:
+def is_valid_response(response: palm.types.Completion) -> bool:
     if response.result is None:
         filters = response.filters
         safety_feedback = response.safety_feedback
@@ -29,11 +29,11 @@ def is_valid_response(response: palm.types.CompletionResponse) -> bool:
 def get_trends(messages: str) -> list:
     defaults = {
         "model": "models/text-bison-001",
-        "temperature": 0.7,
+        "temperature": 1.0,
         "candidate_count": 1,
-        "top_k": 40,
+        "top_k": 100,
         "top_p": 0.95,
-        "max_output_tokens": 1024,
+        "max_output_tokens": 3072,
         "stop_sequences": [],
         "safety_settings": [
             {"category": "HARM_CATEGORY_DEROGATORY", "threshold": 3},
@@ -59,7 +59,9 @@ def get_trends(messages: str) -> list:
     if not is_valid_response(response):
         raise Exception("Failed to generate text")
 
-    return response.result.split(",")
+    result: str = response.result.replace(", ", ",")
+
+    return result.split(",")
 
 
 def main():
