@@ -13,6 +13,19 @@ def read_data() -> str:
     return "\n".join(lines)
 
 
+def is_valid_response(response: palm.types.CompletionResponse) -> bool:
+    if response.result is None:
+        filters = response.filters
+        safety_feedback = response.safety_feedback
+
+        if filters is not None and len(filters) > 0:
+            print(filters)
+        if safety_feedback is not None and len(safety_feedback) > 0:
+            print(safety_feedback)
+        return False
+    return True
+
+
 def get_trends(messages: str) -> list:
     defaults = {
         "model": "models/text-bison-001",
@@ -43,11 +56,7 @@ def get_trends(messages: str) -> list:
     response = palm.generate_text(**defaults, prompt=prompt)
 
     # Check for errors
-    if response.result is None:
-        if response.filters is not None:
-            print(response.filters)
-        if response.safety_feedback is not None:
-            print(response.safety_feedback)
+    if not is_valid_response(response):
         raise Exception("Failed to generate text")
 
     return response.result.split(",")
