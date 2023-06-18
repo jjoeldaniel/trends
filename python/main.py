@@ -41,6 +41,15 @@ def get_trends(messages: str) -> list:
     Topics: """
 
     response = palm.generate_text(**defaults, prompt=prompt)
+
+    # Check for errors
+    if response.result is None:
+        if response.filters is not None:
+            print(response.filters)
+        if response.safety_feedback is not None:
+            print(response.safety_feedback)
+        raise Exception("Failed to generate text")
+
     return response.result.split(",")
 
 
