@@ -1,0 +1,4475 @@
+{
+  "channel_id": "999910900121223178",
+  "channel_name": "🌌off-topic",
+  "authors": {
+    "1010689557768962179": {
+      "name": "jeet",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/1.png"
+    },
+    "122536633546309632": {
+      "name": "Commodore Jellyfish",
+      "avatar": "https://cdn.discordapp.com/avatars/122536633546309632/865bce8671b33cbcb7a33d9719ecf1f2.png"
+    },
+    "124316440768544768": {
+      "name": "pepetapia",
+      "avatar": "https://cdn.discordapp.com/avatars/124316440768544768/7293e7a6843cefd2e39384bb5dd638da.png"
+    },
+    "131555215555035136": {
+      "name": "justins",
+      "avatar": "https://cdn.discordapp.com/avatars/131555215555035136/fd788115ec3e4248dcd73bc5eb02ab00.png"
+    },
+    "170132746042081280": {
+      "name": "_diamondburned_",
+      "avatar": "https://cdn.discordapp.com/avatars/170132746042081280/7d6db92d65cabf7213135d050527dbd1.png"
+    },
+    "170707552495992833": {
+      "name": "vivi",
+      "avatar": "https://cdn.discordapp.com/avatars/170707552495992833/10771ed06a3d07cbf6f185578c9c5032.png"
+    },
+    "205862976689799168": {
+      "name": "joel",
+      "avatar": "https://cdn.discordapp.com/avatars/205862976689799168/a_b0afb57711ea16134411cb767e740ae3.gif"
+    },
+    "241835484341338115": {
+      "name": "Daynger808",
+      "avatar": "https://cdn.discordapp.com/avatars/241835484341338115/9a6afdeae3154beabefd47c52a0321e7.png"
+    },
+    "260555631545679873": {
+      "name": "Fishmonger",
+      "avatar": "https://cdn.discordapp.com/avatars/260555631545679873/c53ce184d373566a95509bc055847789.png"
+    },
+    "260901399729012736": {
+      "name": "EthanThatOneKid",
+      "avatar": "https://cdn.discordapp.com/avatars/260901399729012736/35bc87750c2f4ab1886b6ed8a199654a.png"
+    },
+    "266403493080858624": {
+      "name": "CesarWeezer",
+      "avatar": "https://cdn.discordapp.com/avatars/266403493080858624/6d904be95538788c92deb4140a102d5b.png"
+    },
+    "268909280160120833": {
+      "name": "Angus",
+      "avatar": "https://cdn.discordapp.com/avatars/268909280160120833/5da1c7373baed3acab4a65c9b62b45ac.png"
+    },
+    "275477745256103946": {
+      "name": "They shouldn't Pachuco",
+      "avatar": "https://cdn.discordapp.com/avatars/275477745256103946/9b34f05a76520e3ee0e792b9c7869340.png"
+    },
+    "281466863270232074": {
+      "name": "FreshAC",
+      "avatar": "https://cdn.discordapp.com/avatars/281466863270232074/fd339115809fe2691b22732fac4248fa.png"
+    },
+    "287677502766186506": {
+      "name": "iCarefree",
+      "avatar": "https://cdn.discordapp.com/avatars/287677502766186506/83f2ea5d377099bc2223ab0d0a2411dc.png"
+    },
+    "305390566693404673": {
+      "name": "ToxicPoison",
+      "avatar": "https://cdn.discordapp.com/avatars/305390566693404673/e83efbad9c625f4027122db6b3b8fd45.png"
+    },
+    "316384186573520898": {
+      "name": "jiink",
+      "avatar": "https://cdn.discordapp.com/avatars/316384186573520898/675a5395ca90024efa8ba5d93da794f3.png"
+    },
+    "319657556207206410": {
+      "name": "Muirror",
+      "avatar": "https://cdn.discordapp.com/avatars/319657556207206410/f41679942a783081dffaff2e73eeac17.png"
+    },
+    "328631579406761984": {
+      "name": "SJSands",
+      "avatar": "https://cdn.discordapp.com/avatars/328631579406761984/5653cb91bb795e8ba14b39444f94225a.png"
+    },
+    "358448184160419850": {
+      "name": "lyyeric",
+      "avatar": "https://cdn.discordapp.com/avatars/358448184160419850/47638e40fbc44448509e42ada3fbfc7c.png"
+    },
+    "363859522038530066": {
+      "name": "shaleenmathur26",
+      "avatar": "https://cdn.discordapp.com/avatars/363859522038530066/cb710f47034c4deaa448e46de8af69d6.png"
+    },
+    "364857540745625612": {
+      "name": "peekoe",
+      "avatar": "https://cdn.discordapp.com/avatars/364857540745625612/d9e52d927b977a68874a0455f83d358b.png"
+    },
+    "375437501533388808": {
+      "name": "No__Man",
+      "avatar": "https://cdn.discordapp.com/avatars/375437501533388808/61683441b224b981715772041cc402f3.png"
+    },
+    "388167316438777856": {
+      "name": "Blokku",
+      "avatar": "https://cdn.discordapp.com/avatars/388167316438777856/25f6c0d3614d8fdb31ca2af0d747803e.png"
+    },
+    "388932724347502592": {
+      "name": "fatstinky",
+      "avatar": "https://cdn.discordapp.com/avatars/388932724347502592/468ef83faff4717104a8ae8cc8e71ecd.png"
+    },
+    "393069508027351051": {
+      "name": "clem",
+      "avatar": "https://cdn.discordapp.com/avatars/393069508027351051/5c1999444eb93bdc59c5b474b9b7069c.png"
+    },
+    "397921943560519701": {
+      "name": "nestiray",
+      "avatar": "https://cdn.discordapp.com/avatars/397921943560519701/cccb0135e57b4279ef6d4c8cf7c60815.png"
+    },
+    "404739545519751170": {
+      "name": "sle007",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/3.png"
+    },
+    "467042519860117505": {
+      "name": "Erwin",
+      "avatar": "https://cdn.discordapp.com/avatars/467042519860117505/329dcc52de8471d59ba5cb52f18c160d.png"
+    },
+    "606689504165888050": {
+      "name": "ChoccyMiltank (he/him)",
+      "avatar": "https://cdn.discordapp.com/avatars/606689504165888050/0f25172d9534cd86411afb1ae044ee70.png"
+    },
+    "614719335235059713": {
+      "name": "Canu",
+      "avatar": "https://cdn.discordapp.com/avatars/614719335235059713/a5d2603b88d7af4e21c904b38cec8c98.png"
+    },
+    "619385101473677312": {
+      "name": "HallowsYves",
+      "avatar": "https://cdn.discordapp.com/avatars/619385101473677312/8afd234a8ce1b98c7e82c972879bc088.png"
+    },
+    "625024630067036170": {
+      "name": "Dimo",
+      "avatar": "https://cdn.discordapp.com/avatars/625024630067036170/eca7f1de863e58f24cc6f6e0b906cf7a.png"
+    },
+    "632347645201088513": {
+      "name": "Daniel Truong",
+      "avatar": "https://cdn.discordapp.com/avatars/632347645201088513/38cbc66eaafe55425164aee3d09cff48.png"
+    },
+    "674490747319484447": {
+      "name": "BlueBird02",
+      "avatar": "https://cdn.discordapp.com/avatars/674490747319484447/3fb31d3a3146e7a8869a550a8bc2328c.png"
+    },
+    "694964886010069151": {
+      "name": "Beep",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "696847940467032164": {
+      "name": "Wesley",
+      "avatar": "https://cdn.discordapp.com/avatars/696847940467032164/7bf12d7f0419eff74ffaa62167b99c20.png"
+    },
+    "748218078013161553": {
+      "name": "Donald_",
+      "avatar": "https://cdn.discordapp.com/avatars/748218078013161553/abbe5dc913e131eead3d710564d2198a.png"
+    },
+    "749845465071222895": {
+      "name": "EBYEMJC1",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/2.png"
+    },
+    "809527705812205570": {
+      "name": "alexis",
+      "avatar": "https://cdn.discordapp.com/avatars/809527705812205570/4175759661d7be95eaf93dd320135c85.png"
+    },
+    "869320557672423455": {
+      "name": "Karni",
+      "avatar": "https://cdn.discordapp.com/avatars/869320557672423455/6316de9f278e12541d9f2676b9e1c708.png"
+    },
+    "88617833486876672": {
+      "name": "jasonw",
+      "avatar": "https://cdn.discordapp.com/avatars/88617833486876672/9ab6d6a94975172c9802f0f229792383.png"
+    },
+    "972572025270960202": {
+      "name": "BigO",
+      "avatar": "https://cdn.discordapp.com/avatars/972572025270960202/8267da50cf601525503c760d54cf5934.png"
+    }
+  },
+  "messages": [
+    {
+      "timestamp": "2022-10-31T23:33:42.124Z",
+      "author_id": "316384186573520898",
+      "text": "Why do they call it W11 when there is no W, let alone 11 of them, it oughtta be MidOS"
+    },
+    {
+      "timestamp": "2022-10-31T23:27:39.154Z",
+      "author_id": "619385101473677312",
+      "text": "Just kinda feels macosish"
+    },
+    {
+      "timestamp": "2022-10-31T23:27:32.962Z",
+      "author_id": "619385101473677312",
+      "text": "Completely ageee it’s ight"
+    },
+    {
+      "timestamp": "2022-10-31T22:27:18.262Z",
+      "author_id": "88617833486876672",
+      "text": "but liking windows in cs communities is always a surefire way to make ppl look at u funny 👀"
+    },
+    {
+      "timestamp": "2022-10-31T22:26:44.734Z",
+      "author_id": "88617833486876672",
+      "text": "i like it overall but i dont like how u cant drag files to the taskbar"
+    },
+    {
+      "timestamp": "2022-10-31T22:26:22.204Z",
+      "author_id": "869320557672423455",
+      "text": "but i think ive finally gotten used to it"
+    },
+    {
+      "timestamp": "2022-10-31T22:26:18.6Z",
+      "author_id": "88617833486876672",
+      "text": "i been on it since it came out"
+    },
+    {
+      "timestamp": "2022-10-31T22:26:15.112Z",
+      "author_id": "869320557672423455",
+      "text": "i have a hard time adjusting to changes tbh"
+    },
+    {
+      "timestamp": "2022-10-31T22:26:01.193Z",
+      "author_id": "205862976689799168",
+      "text": "i give it 7/10"
+    },
+    {
+      "timestamp": "2022-10-31T22:25:42.491Z",
+      "author_id": "205862976689799168",
+      "text": "its nowhere near as bad as people make it out to be"
+    },
+    {
+      "timestamp": "2022-10-31T22:24:50.729Z",
+      "author_id": "869320557672423455",
+      "text": "im pretty sure a lot of people are on windows 11 now"
+    },
+    {
+      "timestamp": "2022-10-31T22:24:24.505Z",
+      "author_id": "205862976689799168",
+      "text": "i wanted to a week ago, canceled halfway through the install, restarted my pc the other day and now i am apparently on windows 11"
+    },
+    {
+      "timestamp": "2022-10-31T22:23:36.963Z",
+      "author_id": "205862976689799168",
+      "text": "has anyone else updated to windows 11"
+    },
+    {
+      "timestamp": "2022-10-31T22:02:14.361Z",
+      "author_id": "869320557672423455",
+      "text": "cute"
+    },
+    {
+      "timestamp": "2022-10-31T21:58:40.254Z",
+      "author_id": "749845465071222895",
+      "text": "Not informative but so cute"
+    },
+    {
+      "timestamp": "2022-10-31T21:57:56.397Z",
+      "author_id": "749845465071222895",
+      "text": "https://youtu.be/zxagGtF9MeU"
+    },
+    {
+      "timestamp": "2022-10-31T01:32:13.158Z",
+      "author_id": "972572025270960202",
+      "text": "There’s four I believe"
+    },
+    {
+      "timestamp": "2022-10-31T01:31:58.806Z",
+      "author_id": "972572025270960202",
+      "text": "Which one?"
+    },
+    {
+      "timestamp": "2022-10-31T00:41:54.334Z",
+      "author_id": "694964886010069151",
+      "text": "Anyone taken CPSC 223 here?"
+    },
+    {
+      "timestamp": "2022-10-30T02:03:17.332Z",
+      "author_id": "972572025270960202",
+      "text": "they're pretty confusing imo, but don't worry you'll learn the differences as you play around with them more"
+    },
+    {
+      "timestamp": "2022-10-30T02:01:40.536Z",
+      "author_id": "749845465071222895",
+      "text": "thank you"
+    },
+    {
+      "timestamp": "2022-10-30T02:01:32.062Z",
+      "author_id": "749845465071222895",
+      "text": "oh am dumb, need to pay better attention"
+    },
+    {
+      "timestamp": "2022-10-30T02:00:39.363Z",
+      "author_id": "972572025270960202",
+      "text": "The video covers both of them"
+    },
+    {
+      "timestamp": "2022-10-30T02:00:13.692Z",
+      "author_id": "972572025270960202",
+      "text": "the top one is not a JK Flip Flop, it's a T-Flip Flop"
+    },
+    {
+      "timestamp": "2022-10-30T01:55:50.53Z",
+      "author_id": "749845465071222895",
+      "text": "might be really dumb question but do you know why j and k are connected to same vs different q in these videos ?"
+    },
+    {
+      "timestamp": "2022-10-30T01:47:42.048Z",
+      "author_id": "972572025270960202",
+      "text": "np"
+    },
+    {
+      "timestamp": "2022-10-30T01:47:37.895Z",
+      "author_id": "749845465071222895",
+      "text": "thanks, sorry"
+    },
+    {
+      "timestamp": "2022-10-30T01:47:23.382Z",
+      "author_id": "972572025270960202",
+      "text": "Yeah he has a video on that too https://youtu.be/Y_E6-Bb8H0A"
+    },
+    {
+      "timestamp": "2022-10-30T01:45:47.851Z",
+      "author_id": "749845465071222895",
+      "text": "thank you! I'm sorry for asking for too much but got anything on jk flip flop circuits?"
+    },
+    {
+      "timestamp": "2022-10-30T01:33:02.95Z",
+      "author_id": "972572025270960202",
+      "text": "Oh yeah here I used this one when I was learning them:\n\nhttps://youtu.be/MQe-dO2gpD8"
+    },
+    {
+      "timestamp": "2022-10-30T01:11:24.244Z",
+      "author_id": "749845465071222895",
+      "text": "Tried to find a good example video but couldn't find one however found really nice conceptual video"
+    },
+    {
+      "timestamp": "2022-10-30T01:10:28.729Z",
+      "author_id": "749845465071222895",
+      "text": "No like circuits mux I think it stands for multiplexer and it's like multiple inputs and switches and one output"
+    },
+    {
+      "timestamp": "2022-10-30T01:02:22.991Z",
+      "author_id": "632347645201088513",
+      "text": "go mux?"
+    },
+    {
+      "timestamp": "2022-10-30T00:58:50.48Z",
+      "author_id": "749845465071222895",
+      "text": "Anyone have good resources for learning mux?"
+    },
+    {
+      "timestamp": "2022-10-28T21:38:07.744Z",
+      "author_id": "375437501533388808",
+      "text": "Birdsite deserves everything it gets from getting bought by musky\n\u003e\"R\u0026D\" is just the entire IT development staff\n\u003e\"Cost of revenue\" is data centres and sysadmins\n\u003e\"Marketing\" is sales personnel, PR, jannies, trade show booths\nTwitter is apparently run so badly that they're only making money as an investor pyramid scheme"
+    },
+    {
+      "timestamp": "2022-10-28T21:37:29.766Z",
+      "author_id": "375437501533388808",
+      "text": "\u003eYOU WHAT?\nhttps://twitter.com/0kuItra/status/1585921393354756096"
+    },
+    {
+      "timestamp": "2022-10-28T21:37:28.218Z",
+      "author_id": "375437501533388808",
+      "text": "originally posted in memes, but it's not so funny"
+    },
+    {
+      "timestamp": "2022-10-28T02:59:16.293Z",
+      "author_id": "266403493080858624",
+      "text": "Any course reqs or comments on this regarding a course that might be kidna useless are more than welcome 🤍"
+    },
+    {
+      "timestamp": "2022-10-28T02:58:51.638Z",
+      "author_id": "266403493080858624",
+      "text": "In Comp Eng, with  CS minor. Im not terribly sure what I wanna do since pretty much every aspect seems interesting. Highlighted are all my tech elecs, red is the pre req for Algo"
+    },
+    {
+      "timestamp": "2022-10-27T22:25:16.61Z",
+      "author_id": "260901399729012736",
+      "text": "Code generation is insane"
+    },
+    {
+      "timestamp": "2022-10-27T20:22:53.647Z",
+      "author_id": "632347645201088513",
+      "text": "3 fucken million LOC"
+    },
+    {
+      "timestamp": "2022-10-27T09:33:02.108Z",
+      "author_id": "131555215555035136",
+      "text": "dope 👀"
+    },
+    {
+      "timestamp": "2022-10-27T09:32:24.793Z",
+      "author_id": "170132746042081280",
+      "text": "\u003c@!131555215555035136\u003e https://github.com/google/orbit"
+    },
+    {
+      "timestamp": "2022-10-27T02:22:19.633Z",
+      "author_id": "972572025270960202",
+      "text": "Should’ve looked for another ant and thrown him in the ring with his boy"
+    },
+    {
+      "timestamp": "2022-10-27T01:15:22.904Z",
+      "author_id": "869320557672423455",
+      "text": "I missed the fight:("
+    },
+    {
+      "timestamp": "2022-10-27T01:15:17.111Z",
+      "author_id": "869320557672423455",
+      "text": "Should’ve recorded it bro"
+    },
+    {
+      "timestamp": "2022-10-27T01:15:11.477Z",
+      "author_id": "869320557672423455",
+      "text": "No fucking way"
+    },
+    {
+      "timestamp": "2022-10-27T01:06:58.643Z",
+      "author_id": "316384186573520898",
+      "text": "The ant is strong, but the spider did not let him go!"
+    },
+    {
+      "timestamp": "2022-10-27T01:06:16.354Z",
+      "author_id": "316384186573520898",
+      "text": "Earlier I was watching a spider and an ant battle to the end on a rock, it was intense!"
+    },
+    {
+      "timestamp": "2022-10-26T03:47:00.336Z",
+      "author_id": "749845465071222895",
+      "text": "https://youtu.be/DA8qcqxyndI?t=2414 the things you learn in biochemistry watch fronm 42 until 44 min"
+    },
+    {
+      "timestamp": "2022-10-26T00:13:43.944Z",
+      "author_id": "696847940467032164",
+      "text": "Hey at least u didn't walk into LH confidently to give event directions at a room in H"
+    },
+    {
+      "timestamp": "2022-10-26T00:13:25.318Z",
+      "author_id": "619385101473677312",
+      "text": "Worst feelin"
+    },
+    {
+      "timestamp": "2022-10-26T00:06:55.895Z",
+      "author_id": "205862976689799168",
+      "text": "\u003c:sadCowboy:1024963347738796072\u003e"
+    },
+    {
+      "timestamp": "2022-10-26T00:06:52.909Z",
+      "author_id": "205862976689799168",
+      "text": "just spent 15 minutes waiting for a zoom meeting to start until I realized the time was given in est"
+    },
+    {
+      "timestamp": "2022-10-25T23:10:38.833Z",
+      "author_id": "268909280160120833",
+      "text": "LMAO highly specific..."
+    },
+    {
+      "timestamp": "2022-10-25T23:09:37.682Z",
+      "author_id": "316384186573520898",
+      "text": "charle when I say hi to him in 50 years at the slinky isle in target and he doesnt recognize me at first"
+    },
+    {
+      "timestamp": "2022-10-25T23:01:51.521Z",
+      "author_id": "869320557672423455",
+      "text": "i can see it"
+    },
+    {
+      "timestamp": "2022-10-25T22:54:01.356Z",
+      "author_id": "268909280160120833",
+      "text": "thats actually charlie as a 70 year old"
+    },
+    {
+      "timestamp": "2022-10-25T22:44:13.948Z",
+      "author_id": "316384186573520898",
+      "text": "when the caller tries to pass a null pointer"
+    },
+    {
+      "timestamp": "2022-10-25T22:39:36.038Z",
+      "author_id": "364857540745625612",
+      "text": "because that is what I am"
+    },
+    {
+      "timestamp": "2022-10-25T22:39:31.999Z",
+      "author_id": "364857540745625612",
+      "text": "do you just think I am an old angry man"
+    },
+    {
+      "timestamp": "2022-10-25T20:48:24.67Z",
+      "author_id": "316384186573520898",
+      "text": "Pageless google docs, are those just websites :T !!"
+    },
+    {
+      "timestamp": "2022-10-25T18:18:52.807Z",
+      "author_id": "619385101473677312",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-25T18:18:48.806Z",
+      "author_id": "619385101473677312",
+      "text": "Because you remind me of wizard"
+    },
+    {
+      "timestamp": "2022-10-25T18:18:42.114Z",
+      "author_id": "619385101473677312",
+      "text": "This is for u"
+    },
+    {
+      "timestamp": "2022-10-25T18:18:39.655Z",
+      "author_id": "619385101473677312",
+      "text": "\u003c@364857540745625612\u003e"
+    },
+    {
+      "timestamp": "2022-10-25T15:02:14.798Z",
+      "author_id": "281466863270232074",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-25T10:54:21.009Z",
+      "author_id": "170132746042081280",
+      "text": "what the fuck"
+    },
+    {
+      "timestamp": "2022-10-25T10:54:16.614Z",
+      "author_id": "170132746042081280",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-24T22:45:37.5Z",
+      "author_id": "869320557672423455",
+      "text": "im crying"
+    },
+    {
+      "timestamp": "2022-10-24T22:43:46.002Z",
+      "author_id": "316384186573520898",
+      "text": "All he had to say was, \"Informative\""
+    },
+    {
+      "timestamp": "2022-10-24T22:34:25.125Z",
+      "author_id": "869320557672423455",
+      "text": "LMFAOOOO"
+    },
+    {
+      "timestamp": "2022-10-24T22:34:15.706Z",
+      "author_id": "316384186573520898",
+      "text": "dear coeternity, I passed your question along to the biggest computer science club in my university, and the president says yes"
+    },
+    {
+      "timestamp": "2022-10-24T22:33:11.468Z",
+      "author_id": "869320557672423455",
+      "text": "yes"
+    },
+    {
+      "timestamp": "2022-10-24T22:32:48.275Z",
+      "author_id": "316384186573520898",
+      "text": "(what's the answer?)"
+    },
+    {
+      "timestamp": "2022-10-24T04:46:59.918Z",
+      "author_id": "316384186573520898",
+      "text": "https://cdn.discordapp.com/attachments/340494766208974849/1033810169697669220/unknown.png"
+    },
+    {
+      "timestamp": "2022-10-24T04:46:59.431Z",
+      "author_id": "316384186573520898",
+      "text": "Bay area be like"
+    },
+    {
+      "timestamp": "2022-10-24T01:29:27.459Z",
+      "author_id": "404739545519751170",
+      "text": "\u003c@749845465071222895\u003e"
+    },
+    {
+      "timestamp": "2022-10-24T01:29:22.166Z",
+      "author_id": "404739545519751170",
+      "text": "think of websocket as a performant way to communicate real time between server and client (think of things like chat apps)\n\nLet say if u want to know if u have new messages, you can do things like polling the server constantly but that would be very resource intensive. Websocket can allows server to send user that\n\nNow thats at a high level summary, since with new HTTP versions, there are similar ways but there are still certain overheads which makes websocket still the defacto for those real time related things and depends on use cases you can pick the appropriate methods"
+    },
+    {
+      "timestamp": "2022-10-24T01:03:40.419Z",
+      "author_id": "88617833486876672",
+      "text": "but they have to make it sound cool so it's called \"websockets\""
+    },
+    {
+      "timestamp": "2022-10-24T01:03:30.178Z",
+      "author_id": "88617833486876672",
+      "text": "not relevant to know but it's really just an http handshake that says \"open a tcp connection\" before opening a tcp connection"
+    },
+    {
+      "timestamp": "2022-10-24T01:02:02.729Z",
+      "author_id": "88617833486876672",
+      "text": "it's relevant to discord because it's designed to run a browser and needs a tcp connection"
+    },
+    {
+      "timestamp": "2022-10-24T01:01:20.551Z",
+      "author_id": "88617833486876672",
+      "text": "it's just a way for browsers to open a tcp connection w a server"
+    },
+    {
+      "timestamp": "2022-10-24T00:49:54.898Z",
+      "author_id": "749845465071222895",
+      "text": "what in the world is a websocket? I was watching a tutorial on discord bots to do the crying thing and he keeps mentioning and am clueless"
+    },
+    {
+      "timestamp": "2022-10-24T00:16:23.76Z",
+      "author_id": "275477745256103946",
+      "text": "No just a job application"
+    },
+    {
+      "timestamp": "2022-10-23T23:58:32.955Z",
+      "author_id": "404739545519751170",
+      "text": "Is this new grad"
+    },
+    {
+      "timestamp": "2022-10-23T23:47:24.648Z",
+      "author_id": "275477745256103946",
+      "text": "Also this Data Scientist position has a lot of requirements for its position"
+    },
+    {
+      "timestamp": "2022-10-23T23:30:34.054Z",
+      "author_id": "275477745256103946",
+      "text": "I didn't relies in LinkedIn u can have languages like CSS in ur skills, wither \"endorsements\" tag to each skill"
+    },
+    {
+      "timestamp": "2022-10-23T16:33:46.061Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.youtube.com/watch?v=d7KSTZttWXM\u0026ab_channel=introvertedmadness"
+    },
+    {
+      "timestamp": "2022-10-23T06:54:07.912Z",
+      "author_id": "268909280160120833",
+      "text": "Like it’d be cool if dc continues to make movies as good as black Adam"
+    },
+    {
+      "timestamp": "2022-10-23T06:49:22.221Z",
+      "author_id": "268909280160120833",
+      "text": "Like without saying spoilers they introduced some cool characters besides black Adam"
+    },
+    {
+      "timestamp": "2022-10-23T06:48:29.589Z",
+      "author_id": "268909280160120833",
+      "text": "Like compared to all the other dc stuff that’s been made it’s good"
+    },
+    {
+      "timestamp": "2022-10-23T06:48:10.904Z",
+      "author_id": "268909280160120833",
+      "text": "I didn’t think it was bad"
+    },
+    {
+      "timestamp": "2022-10-23T04:22:36.258Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.youtube.com/watch?v=S7SnzkewLqQ"
+    },
+    {
+      "timestamp": "2022-10-23T04:21:06.816Z",
+      "author_id": "619385101473677312",
+      "text": "Charlie did moist meter on it already"
+    },
+    {
+      "timestamp": "2022-10-23T03:52:54.844Z",
+      "author_id": "393069508027351051",
+      "text": "ill be waiting for the movie review \u003ca:waiting:916572822602666024\u003e"
+    },
+    {
+      "timestamp": "2022-10-23T03:38:13.941Z",
+      "author_id": "268909280160120833",
+      "text": "bc he do be funny"
+    },
+    {
+      "timestamp": "2022-10-23T03:38:04.452Z",
+      "author_id": "268909280160120833",
+      "text": "i feel like he's too lighthearted for the role but we'll see"
+    },
+    {
+      "timestamp": "2022-10-23T03:37:27.533Z",
+      "author_id": "268909280160120833",
+      "text": "bout to go watch this man play black adam"
+    },
+    {
+      "timestamp": "2022-10-23T03:37:19.595Z",
+      "author_id": "268909280160120833",
+      "text": "https://tenor.com/view/the-rock-the-rock-surprise-the-rock-sus-the-rock-meme-the-rock-smile-gif-23666496"
+    },
+    {
+      "timestamp": "2022-10-21T20:20:54.124Z",
+      "author_id": "88617833486876672",
+      "text": "like actual zero effort exams where he just copy pastes a line from the lecture and deletes a word LOL"
+    },
+    {
+      "timestamp": "2022-10-21T20:20:30.884Z",
+      "author_id": "619385101473677312",
+      "text": "True blessings"
+    },
+    {
+      "timestamp": "2022-10-21T20:20:21.703Z",
+      "author_id": "88617833486876672",
+      "text": "so the class average for the final was like a 90something"
+    },
+    {
+      "timestamp": "2022-10-21T20:20:09.79Z",
+      "author_id": "88617833486876672",
+      "text": "and his exams were literally ctrl + f the lecture slides"
+    },
+    {
+      "timestamp": "2022-10-21T20:19:34.995Z",
+      "author_id": "467042519860117505",
+      "text": "interesting..."
+    },
+    {
+      "timestamp": "2022-10-21T20:19:07.678Z",
+      "author_id": "88617833486876672",
+      "text": "but yes, grad student who deadass taught the class in bed and blasted thru the slides and dismissed the class after 15 mins"
+    },
+    {
+      "timestamp": "2022-10-21T20:18:35.759Z",
+      "author_id": "467042519860117505",
+      "text": "lmao 😭"
+    },
+    {
+      "timestamp": "2022-10-21T20:18:30.605Z",
+      "author_id": "88617833486876672",
+      "text": "no cus they often make grad students teach it too SDHFGFK;JSADHFSADF"
+    },
+    {
+      "timestamp": "2022-10-21T20:18:24.594Z",
+      "author_id": "467042519860117505",
+      "text": "did you take it with someone chill or nah"
+    },
+    {
+      "timestamp": "2022-10-21T20:18:15.172Z",
+      "author_id": "467042519860117505",
+      "text": "is there a recommended professor for that ?"
+    },
+    {
+      "timestamp": "2022-10-21T20:17:57.445Z",
+      "author_id": "88617833486876672",
+      "text": "some classes is literally just the semester long project"
+    },
+    {
+      "timestamp": "2022-10-21T20:17:48.868Z",
+      "author_id": "88617833486876672",
+      "text": "some classes will have u doing a lot of writing along w ur semester long project"
+    },
+    {
+      "timestamp": "2022-10-21T20:17:31.595Z",
+      "author_id": "88617833486876672",
+      "text": "depend on the prof high key"
+    },
+    {
+      "timestamp": "2022-10-21T20:17:24.034Z",
+      "author_id": "467042519860117505",
+      "text": "Would you guys say that 362 - Foundations of S.E. is ez ?"
+    },
+    {
+      "timestamp": "2022-10-21T20:16:04.941Z",
+      "author_id": "88617833486876672",
+      "text": "took it with shilpa lakhanpal shes great would recommencd"
+    },
+    {
+      "timestamp": "2022-10-21T20:16:01.995Z",
+      "author_id": "393069508027351051",
+      "text": "some of the stuff is pretty confusing but most of it is ok"
+    },
+    {
+      "timestamp": "2022-10-21T20:15:49.918Z",
+      "author_id": "393069508027351051",
+      "text": "i took it with another professor but he made the class not that hard if that makes sense"
+    },
+    {
+      "timestamp": "2022-10-21T20:15:15.998Z",
+      "author_id": "467042519860117505",
+      "text": "Has anyone taken CS 351 - Operating Systems Concepts? I'm thinking of taking it with Gofman - but wanted to hear exps from others with that course"
+    },
+    {
+      "timestamp": "2022-10-21T04:04:06.253Z",
+      "author_id": "316384186573520898",
+      "text": "bowser is just a random size every time he appears"
+    },
+    {
+      "timestamp": "2022-10-21T02:47:51.283Z",
+      "author_id": "619385101473677312",
+      "text": "https://tenor.com/view/bowser-tomislavartz-bowser-super-mario-bowser-tomislav-final-boss-gif-25221857"
+    },
+    {
+      "timestamp": "2022-10-21T02:47:39.483Z",
+      "author_id": "619385101473677312",
+      "text": "IS REALL"
+    },
+    {
+      "timestamp": "2022-10-21T02:47:37.602Z",
+      "author_id": "619385101473677312",
+      "text": "THE ONE PIECE"
+    },
+    {
+      "timestamp": "2022-10-21T00:07:57.463Z",
+      "author_id": "260901399729012736",
+      "text": "A member has been growing a cool One Piece YouTube channel over the last year! https://youtube.com/channel/UCk7I-DfermoPi7thN0X9mGg"
+    },
+    {
+      "timestamp": "2022-10-17T23:39:03.395Z",
+      "author_id": "316384186573520898",
+      "text": "Exactly"
+    },
+    {
+      "timestamp": "2022-10-17T23:31:09.926Z",
+      "author_id": "619385101473677312",
+      "text": "its like delivering mail"
+    },
+    {
+      "timestamp": "2022-10-17T23:29:47.374Z",
+      "author_id": "88617833486876672",
+      "text": "https://www.youtube.com/watch?v=2ybLD6_2gKM"
+    },
+    {
+      "timestamp": "2022-10-17T23:25:33.165Z",
+      "author_id": "619385101473677312",
+      "text": "thank u's!"
+    },
+    {
+      "timestamp": "2022-10-17T23:25:29.072Z",
+      "author_id": "619385101473677312",
+      "text": "Ohhh"
+    },
+    {
+      "timestamp": "2022-10-17T21:11:43.258Z",
+      "author_id": "122536633546309632",
+      "text": "delve**"
+    },
+    {
+      "timestamp": "2022-10-17T21:11:40.67Z",
+      "author_id": "122536633546309632",
+      "text": "and then you delver deeper in 131"
+    },
+    {
+      "timestamp": "2022-10-17T21:11:21.526Z",
+      "author_id": "122536633546309632",
+      "text": "uhh here i believe you start using pointers in 121"
+    },
+    {
+      "timestamp": "2022-10-17T18:20:20.617Z",
+      "author_id": "972572025270960202",
+      "text": "You mean pointers? Isn’t that intro? Idk I took those classes at junior college"
+    },
+    {
+      "timestamp": "2022-10-17T17:41:38.55Z",
+      "author_id": "619385101473677312",
+      "text": "what class is it when you learn about like addresses in C++"
+    },
+    {
+      "timestamp": "2022-10-17T17:41:28.372Z",
+      "author_id": "619385101473677312",
+      "text": "guys"
+    },
+    {
+      "timestamp": "2022-10-17T14:58:33.577Z",
+      "author_id": "748218078013161553",
+      "text": "Too relatable comp sci   https://www.tiktok.com/t/ZTRHMr1rW/"
+    },
+    {
+      "timestamp": "2022-10-16T16:22:43.91Z",
+      "author_id": "749845465071222895",
+      "text": "Super late but here\nhttps://youtu.be/Uk36WGxujkc\nhttps://drive.google.com/file/d/1aLgNUqWCquKysCnq0NW3Ep4rPBXduDXz/view?usp=drivesdk\nhttps://drive.google.com/file/d/12jGHiH1qroc3PMC4khNzLScC7ThQpq3k/view?usp=drivesdk"
+    },
+    {
+      "timestamp": "2022-10-16T11:34:19.099Z",
+      "author_id": "275477745256103946",
+      "text": "thx"
+    },
+    {
+      "timestamp": "2022-10-16T11:34:12.006Z",
+      "author_id": "275477745256103946",
+      "text": "got it"
+    },
+    {
+      "timestamp": "2022-10-16T11:30:52.246Z",
+      "author_id": "632347645201088513",
+      "text": "gif is basically loop of pictures so just make bunch of pictures and throw that to some gif converter online service"
+    },
+    {
+      "timestamp": "2022-10-16T11:29:32.77Z",
+      "author_id": "632347645201088513",
+      "text": "pfft android"
+    },
+    {
+      "timestamp": "2022-10-16T11:19:13.377Z",
+      "author_id": "275477745256103946",
+      "text": "no I thought I could record n make 1"
+    },
+    {
+      "timestamp": "2022-10-16T11:13:40.465Z",
+      "author_id": "88617833486876672",
+      "text": "i dont have that button on mine wtf"
+    },
+    {
+      "timestamp": "2022-10-16T11:12:49.125Z",
+      "author_id": "632347645201088513",
+      "text": "this one?"
+    },
+    {
+      "timestamp": "2022-10-16T10:56:06.525Z",
+      "author_id": "275477745256103946",
+      "text": "how can I make a gif in Discord?"
+    },
+    {
+      "timestamp": "2022-10-16T09:54:17.907Z",
+      "author_id": "170132746042081280",
+      "text": "this rocks"
+    },
+    {
+      "timestamp": "2022-10-16T09:54:15.069Z",
+      "author_id": "170132746042081280",
+      "text": "yeah they both are, thx"
+    },
+    {
+      "timestamp": "2022-10-16T08:30:56.691Z",
+      "author_id": "632347645201088513",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-16T08:29:06.341Z",
+      "author_id": "632347645201088513",
+      "text": "338 ?"
+    },
+    {
+      "timestamp": "2022-10-16T07:56:59.038Z",
+      "author_id": "88617833486876672",
+      "text": "who tf is fisher"
+    },
+    {
+      "timestamp": "2022-10-16T07:56:57.016Z",
+      "author_id": "88617833486876672",
+      "text": "jk no it's not"
+    },
+    {
+      "timestamp": "2022-10-16T07:56:35.814Z",
+      "author_id": "88617833486876672",
+      "text": "this one?"
+    },
+    {
+      "timestamp": "2022-10-16T07:46:50.216Z",
+      "author_id": "170132746042081280",
+      "text": "can someone save my ass and send me their statistics notes for Fisher's Significance Testing/Goodness of Fit Test?"
+    },
+    {
+      "timestamp": "2022-10-14T22:58:35.351Z",
+      "author_id": "316384186573520898",
+      "text": "lax scroll"
+    },
+    {
+      "timestamp": "2022-10-14T22:52:08.902Z",
+      "author_id": "275477745256103946",
+      "text": "Charlie?"
+    },
+    {
+      "timestamp": "2022-10-14T20:23:53.696Z",
+      "author_id": "275477745256103946",
+      "text": "shoutout Babel I guess"
+    },
+    {
+      "timestamp": "2022-10-14T16:40:51.46Z",
+      "author_id": "619385101473677312",
+      "text": "eats spicy goodness like a boss"
+    },
+    {
+      "timestamp": "2022-10-14T05:15:10.695Z",
+      "author_id": "88617833486876672",
+      "text": "paying broken laptop fee cheaper than buying new laptop if it was ur own laptop 👀"
+    },
+    {
+      "timestamp": "2022-10-14T05:14:26.867Z",
+      "author_id": "316384186573520898",
+      "text": "uh ouh"
+    },
+    {
+      "timestamp": "2022-10-14T05:14:07.4Z",
+      "author_id": "749845465071222895",
+      "text": "Borrowed laptop from school now has nonfunctional touchpad, mom wiped it wit isopropyl again panicking, I should just never borrow laptop again second broken laptop of the year"
+    },
+    {
+      "timestamp": "2022-10-14T02:41:57.434Z",
+      "author_id": "316384186573520898",
+      "text": "FRAUD"
+    },
+    {
+      "timestamp": "2022-10-14T02:41:46.039Z",
+      "author_id": "316384186573520898",
+      "text": "ai frank"
+    },
+    {
+      "timestamp": "2022-10-13T20:49:30.086Z",
+      "author_id": "124316440768544768",
+      "text": "im a 65% myself"
+    },
+    {
+      "timestamp": "2022-10-13T20:49:05.385Z",
+      "author_id": "124316440768544768",
+      "text": "420% gang anyone?"
+    },
+    {
+      "timestamp": "2022-10-13T19:01:20.872Z",
+      "author_id": "268909280160120833",
+      "text": "The beta was so gr8"
+    },
+    {
+      "timestamp": "2022-10-13T19:01:10.459Z",
+      "author_id": "268909280160120833",
+      "text": "oh my god I’m hyped"
+    },
+    {
+      "timestamp": "2022-10-13T18:04:07.707Z",
+      "author_id": "205862976689799168",
+      "text": "hahaha havent even used it yet so  not sure if i scammed myself"
+    },
+    {
+      "timestamp": "2022-10-13T18:03:50.014Z",
+      "author_id": "619385101473677312",
+      "text": "I saw when they released those it sold out like crazy fast"
+    },
+    {
+      "timestamp": "2022-10-13T18:03:35.863Z",
+      "author_id": "619385101473677312",
+      "text": "Hahahaha niceeee"
+    },
+    {
+      "timestamp": "2022-10-13T18:01:41.39Z",
+      "author_id": "205862976689799168",
+      "text": "my 3%"
+    },
+    {
+      "timestamp": "2022-10-13T18:00:41.017Z",
+      "author_id": "88617833486876672",
+      "text": "tkl"
+    },
+    {
+      "timestamp": "2022-10-13T17:55:33.59Z",
+      "author_id": "632347645201088513",
+      "text": "69% gang"
+    },
+    {
+      "timestamp": "2022-10-13T17:39:06.49Z",
+      "author_id": "809527705812205570",
+      "text": "65% 😏"
+    },
+    {
+      "timestamp": "2022-10-13T17:37:38.977Z",
+      "author_id": "869320557672423455",
+      "text": "2%"
+    },
+    {
+      "timestamp": "2022-10-13T17:25:32.368Z",
+      "author_id": "619385101473677312",
+      "text": "65% gang 💪"
+    },
+    {
+      "timestamp": "2022-10-13T17:23:48.026Z",
+      "author_id": "205862976689799168",
+      "text": "75% all the way"
+    },
+    {
+      "timestamp": "2022-10-13T17:10:39.925Z",
+      "author_id": "619385101473677312",
+      "text": "me 2 lmao"
+    },
+    {
+      "timestamp": "2022-10-13T16:58:17.51Z",
+      "author_id": "809527705812205570",
+      "text": "but i need my arrow keys 😩"
+    },
+    {
+      "timestamp": "2022-10-13T16:58:06.617Z",
+      "author_id": "809527705812205570",
+      "text": "actually kind've sick"
+    },
+    {
+      "timestamp": "2022-10-13T16:17:04.188Z",
+      "author_id": "619385101473677312",
+      "text": "Cuztomizeable accuation points?"
+    },
+    {
+      "timestamp": "2022-10-13T16:16:52.616Z",
+      "author_id": "619385101473677312",
+      "text": "🤔🤔🤔🤔"
+    },
+    {
+      "timestamp": "2022-10-13T16:16:46.661Z",
+      "author_id": "619385101473677312",
+      "text": "Hmmmmmm"
+    },
+    {
+      "timestamp": "2022-10-13T16:16:44.142Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.youtube.com/watch?v=glQNEbh79xg\u0026ab_channel=OptimumTech"
+    },
+    {
+      "timestamp": "2022-10-13T08:01:07.494Z",
+      "author_id": "749845465071222895",
+      "text": "all food is good food"
+    },
+    {
+      "timestamp": "2022-10-13T07:57:05.082Z",
+      "author_id": "287677502766186506",
+      "text": "Pretty bomb carne asada fries and has big burritos"
+    },
+    {
+      "timestamp": "2022-10-13T07:56:42.986Z",
+      "author_id": "287677502766186506",
+      "text": "Cali tacos is fire"
+    },
+    {
+      "timestamp": "2022-10-13T02:49:21.055Z",
+      "author_id": "632347645201088513",
+      "text": "\u003c:wow:1022204525811073036\u003e"
+    },
+    {
+      "timestamp": "2022-10-13T02:49:15.962Z",
+      "author_id": "632347645201088513",
+      "text": "OMG Chainsaw Man is out"
+    },
+    {
+      "timestamp": "2022-10-13T02:23:15.31Z",
+      "author_id": "124316440768544768",
+      "text": "sheeeesh ill go tomorrow"
+    },
+    {
+      "timestamp": "2022-10-13T01:10:10.28Z",
+      "author_id": "972572025270960202",
+      "text": "The Ensenada burritos are fire"
+    },
+    {
+      "timestamp": "2022-10-13T01:07:35.053Z",
+      "author_id": "467042519860117505",
+      "text": "I haven't tried anything besides their fish tacos so if anyone has recommendations on that, let me know"
+    },
+    {
+      "timestamp": "2022-10-13T01:07:08.195Z",
+      "author_id": "467042519860117505",
+      "text": "It's not expensive, and fills you up"
+    },
+    {
+      "timestamp": "2022-10-13T01:06:39.012Z",
+      "author_id": "972572025270960202",
+      "text": "If it is that shit is bomb"
+    },
+    {
+      "timestamp": "2022-10-13T01:06:36.115Z",
+      "author_id": "467042519860117505",
+      "text": "Nutwood, ye"
+    },
+    {
+      "timestamp": "2022-10-13T01:06:28.213Z",
+      "author_id": "972572025270960202",
+      "text": "The one on Nutwood?"
+    },
+    {
+      "timestamp": "2022-10-13T01:05:41.93Z",
+      "author_id": "124316440768544768",
+      "text": "Yeah that place was great.. the green sauce thing was interesting but not bad!"
+    },
+    {
+      "timestamp": "2022-10-13T01:05:18.149Z",
+      "author_id": "124316440768544768",
+      "text": "Is this the one that has a location in chino hills?"
+    },
+    {
+      "timestamp": "2022-10-13T01:01:09.312Z",
+      "author_id": "319657556207206410",
+      "text": "Pepe’s has good burritos"
+    },
+    {
+      "timestamp": "2022-10-13T00:59:19.927Z",
+      "author_id": "467042519860117505",
+      "text": "I like Ensensada, it has pretty decent fish tacos 🤷‍♂️"
+    },
+    {
+      "timestamp": "2022-10-12T23:28:19.594Z",
+      "author_id": "124316440768544768",
+      "text": "if i find another carne asada fries with beans in it.. \u003c:NotLikePepe:662098821563678730\u003e"
+    },
+    {
+      "timestamp": "2022-10-12T23:27:54.889Z",
+      "author_id": "124316440768544768",
+      "text": "Any mexican food recommendations near CSUF?"
+    },
+    {
+      "timestamp": "2022-10-12T21:23:38.322Z",
+      "author_id": "1010689557768962179",
+      "text": "yes"
+    },
+    {
+      "timestamp": "2022-10-12T20:58:55.609Z",
+      "author_id": "972572025270960202",
+      "text": "The struggle of not being Ken Thompson is real 😔"
+    },
+    {
+      "timestamp": "2022-10-12T20:58:29.288Z",
+      "author_id": "972572025270960202",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-12T20:58:20.748Z",
+      "author_id": "972572025270960202",
+      "text": "https://youtu.be/NTfOnGZUZDk"
+    },
+    {
+      "timestamp": "2022-10-12T17:57:30.891Z",
+      "author_id": "319657556207206410",
+      "text": "have you guys seen the chainsaw man episode yet 👀"
+    },
+    {
+      "timestamp": "2022-10-12T17:52:20.142Z",
+      "author_id": "869320557672423455",
+      "text": "phases i mean"
+    },
+    {
+      "timestamp": "2022-10-12T17:52:04.982Z",
+      "author_id": "869320557672423455",
+      "text": "ive had so many"
+    },
+    {
+      "timestamp": "2022-10-12T17:51:07.979Z",
+      "author_id": "397921943560519701",
+      "text": "me too :3"
+    },
+    {
+      "timestamp": "2022-10-12T17:50:51.11Z",
+      "author_id": "869320557672423455",
+      "text": "come on we all had that phase"
+    },
+    {
+      "timestamp": "2022-10-12T17:49:59.104Z",
+      "author_id": "397921943560519701",
+      "text": "karni likes shojos 🥹"
+    },
+    {
+      "timestamp": "2022-10-12T17:21:15.982Z",
+      "author_id": "1010689557768962179",
+      "text": "lmao I have stopped updating them long ago. just me being lazy"
+    },
+    {
+      "timestamp": "2022-10-12T17:20:00.344Z",
+      "author_id": "869320557672423455",
+      "text": "and i didnt know what myanimelist or anilist was"
+    },
+    {
+      "timestamp": "2022-10-12T17:19:44.69Z",
+      "author_id": "869320557672423455",
+      "text": "i have so fucking much"
+    },
+    {
+      "timestamp": "2022-10-12T17:19:41.083Z",
+      "author_id": "869320557672423455",
+      "text": "ugh dont remind me"
+    },
+    {
+      "timestamp": "2022-10-12T17:19:29.644Z",
+      "author_id": "1010689557768962179",
+      "text": "same. also I really need to finish some of the mangas I've started"
+    },
+    {
+      "timestamp": "2022-10-12T17:17:42.256Z",
+      "author_id": "869320557672423455",
+      "text": "but youre right that doesnt stop me"
+    },
+    {
+      "timestamp": "2022-10-12T17:17:34.089Z",
+      "author_id": "869320557672423455",
+      "text": "i drive"
+    },
+    {
+      "timestamp": "2022-10-12T17:16:42.823Z",
+      "author_id": "619385101473677312",
+      "text": "Just read on your way to school"
+    },
+    {
+      "timestamp": "2022-10-12T17:16:07.517Z",
+      "author_id": "869320557672423455",
+      "text": "i havent read hellstar but i have heard of it"
+    },
+    {
+      "timestamp": "2022-10-12T17:16:01.641Z",
+      "author_id": "869320557672423455",
+      "text": "not all i have a few more i need to get to"
+    },
+    {
+      "timestamp": "2022-10-12T17:15:52.347Z",
+      "author_id": "869320557672423455",
+      "text": "ive read a lot of junji ito"
+    },
+    {
+      "timestamp": "2022-10-12T17:15:46.89Z",
+      "author_id": "869320557672423455",
+      "text": "ive read uzumaki"
+    },
+    {
+      "timestamp": "2022-10-12T17:15:23.972Z",
+      "author_id": "1010689557768962179",
+      "text": "have you read Uzumaki or Hellstar Ramina?👀"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:40.206Z",
+      "author_id": "869320557672423455",
+      "text": "i need to tho"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:32.493Z",
+      "author_id": "869320557672423455",
+      "text": "i dont read the popular ones lmfao"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:27.429Z",
+      "author_id": "869320557672423455",
+      "text": "i heard"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:25.997Z",
+      "author_id": "869320557672423455",
+      "text": "that one was popular"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:19.372Z",
+      "author_id": "869320557672423455",
+      "text": "ah gotcha"
+    },
+    {
+      "timestamp": "2022-10-12T17:13:06.013Z",
+      "author_id": "1010689557768962179",
+      "text": "technically not a manga, but mine is Solo Leveling"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:48.193Z",
+      "author_id": "869320557672423455",
+      "text": "which had like 383 chapters"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:30.977Z",
+      "author_id": "869320557672423455",
+      "text": "gantz"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:29.399Z",
+      "author_id": "869320557672423455",
+      "text": "the longest manga i read was"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:23.008Z",
+      "author_id": "869320557672423455",
+      "text": "gotcha"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:20.943Z",
+      "author_id": "869320557672423455",
+      "text": "lmfao"
+    },
+    {
+      "timestamp": "2022-10-12T17:12:20.611Z",
+      "author_id": "1010689557768962179",
+      "text": "same"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:37.298Z",
+      "author_id": "619385101473677312",
+      "text": "Can’t even explain"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:31.394Z",
+      "author_id": "619385101473677312",
+      "text": "Those will have you like"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:27.577Z",
+      "author_id": "619385101473677312",
+      "text": "Stone ocean, steel ball run, golden wind"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:15.297Z",
+      "author_id": "619385101473677312",
+      "text": "Yes you do"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:11.065Z",
+      "author_id": "869320557672423455",
+      "text": "man"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:07.805Z",
+      "author_id": "869320557672423455",
+      "text": "dude i need to read jojo"
+    },
+    {
+      "timestamp": "2022-10-12T17:11:02.502Z",
+      "author_id": "869320557672423455",
+      "text": "oh lmfao"
+    },
+    {
+      "timestamp": "2022-10-12T17:10:52.839Z",
+      "author_id": "619385101473677312",
+      "text": "So good"
+    },
+    {
+      "timestamp": "2022-10-12T17:10:50.739Z",
+      "author_id": "619385101473677312",
+      "text": "Steel ball run jojo manga"
+    },
+    {
+      "timestamp": "2022-10-12T17:10:27.024Z",
+      "author_id": "869320557672423455",
+      "text": "excuse me?"
+    },
+    {
+      "timestamp": "2022-10-12T17:10:18.481Z",
+      "author_id": "619385101473677312",
+      "text": "May I introduce you to steel ball run manga"
+    },
+    {
+      "timestamp": "2022-10-12T17:08:50.557Z",
+      "author_id": "869320557672423455",
+      "text": "i used to read like crazy"
+    },
+    {
+      "timestamp": "2022-10-12T17:08:42.179Z",
+      "author_id": "869320557672423455",
+      "text": "ugh felt that"
+    },
+    {
+      "timestamp": "2022-10-12T17:08:29.481Z",
+      "author_id": "1010689557768962179",
+      "text": "I should be studying but here we are"
+    },
+    {
+      "timestamp": "2022-10-12T17:08:15.306Z",
+      "author_id": "1010689557768962179",
+      "text": "same🥲. I have my midterms next week"
+    },
+    {
+      "timestamp": "2022-10-12T17:07:53.694Z",
+      "author_id": "1010689557768962179",
+      "text": "do ittt"
+    },
+    {
+      "timestamp": "2022-10-12T17:07:08.058Z",
+      "author_id": "869320557672423455",
+      "text": "ive stopped reading manga unfortunately since im so busy"
+    },
+    {
+      "timestamp": "2022-10-12T17:06:56.554Z",
+      "author_id": "869320557672423455",
+      "text": "i need to read it"
+    },
+    {
+      "timestamp": "2022-10-12T17:06:37.801Z",
+      "author_id": "1010689557768962179",
+      "text": "it's lit. I am reading the manga rn"
+    },
+    {
+      "timestamp": "2022-10-12T16:50:51.04Z",
+      "author_id": "1010689557768962179",
+      "text": "Anyone saw Chainsaw Man ep 1? it came out yesterday"
+    },
+    {
+      "timestamp": "2022-10-12T16:27:14.201Z",
+      "author_id": "619385101473677312",
+      "text": "https://tenor.com/view/bob-odenkirk-better-call-saul-pointing-gif-8557710"
+    },
+    {
+      "timestamp": "2022-10-12T15:31:44.098Z",
+      "author_id": "388167316438777856",
+      "text": "🧐"
+    },
+    {
+      "timestamp": "2022-10-12T06:14:20.049Z",
+      "author_id": "88617833486876672",
+      "text": "for legal reasons, no u didnt : )"
+    },
+    {
+      "timestamp": "2022-10-12T06:09:33.855Z",
+      "author_id": "869320557672423455",
+      "text": "KYLE WATCH YOURSELF"
+    },
+    {
+      "timestamp": "2022-10-12T06:07:33.559Z",
+      "author_id": "305390566693404673",
+      "text": "https://twitter.com/Mahoukarp/status/1578176264485027842?t=2lgb-ll97QuVGSj2B4K9vg\u0026s=19 I found Frank's family"
+    },
+    {
+      "timestamp": "2022-10-12T05:18:14.401Z",
+      "author_id": "749845465071222895",
+      "text": "Anyone have good resources for boolean algebra function simplification I'm getting better but more resources is never a bad thing"
+    },
+    {
+      "timestamp": "2022-10-12T04:49:28.406Z",
+      "author_id": "972572025270960202",
+      "text": "Great now you gotta wait another month until the next opening 🙄"
+    },
+    {
+      "timestamp": "2022-10-12T04:31:41Z",
+      "author_id": "205862976689799168",
+      "text": "my advising appt was apparently canceled and i was the last to know \u003c:e_bruh:972247858994622464\u003e"
+    },
+    {
+      "timestamp": "2022-10-12T03:51:02.719Z",
+      "author_id": "869320557672423455",
+      "text": "no"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:53.591Z",
+      "author_id": "696847940467032164",
+      "text": "But it's fun!!"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:52.207Z",
+      "author_id": "88617833486876672",
+      "text": "i slept for 5 hours today"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:38.94Z",
+      "author_id": "869320557672423455",
+      "text": "do not fucking sleep for another 15 hours"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:28.447Z",
+      "author_id": "696847940467032164",
+      "text": "See u tomorrow at 10am"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:26.453Z",
+      "author_id": "869320557672423455",
+      "text": "i mean that doesnt sound too bad"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:23.362Z",
+      "author_id": "809527705812205570",
+      "text": "with chicken tikka masala (basic i know)"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:17.437Z",
+      "author_id": "88617833486876672",
+      "text": "mf"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:13.532Z",
+      "author_id": "696847940467032164",
+      "text": "It's past my bedtime good night"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:08.35Z",
+      "author_id": "869320557672423455",
+      "text": "no way"
+    },
+    {
+      "timestamp": "2022-10-12T03:46:00.125Z",
+      "author_id": "809527705812205570",
+      "text": "ate it the other day"
+    },
+    {
+      "timestamp": "2022-10-12T03:45:54.793Z",
+      "author_id": "809527705812205570",
+      "text": "i fucking love naan"
+    },
+    {
+      "timestamp": "2022-10-12T03:45:54.767Z",
+      "author_id": "88617833486876672",
+      "text": "the pictures 😭"
+    },
+    {
+      "timestamp": "2022-10-12T03:45:41.764Z",
+      "author_id": "696847940467032164",
+      "text": "What post"
+    },
+    {
+      "timestamp": "2022-10-12T03:45:37.329Z",
+      "author_id": "88617833486876672",
+      "text": "WESLEY whersthe post today"
+    },
+    {
+      "timestamp": "2022-10-12T03:45:33.831Z",
+      "author_id": "696847940467032164",
+      "text": "I've used Naan to make egg pancakes out of desperation once"
+    },
+    {
+      "timestamp": "2022-10-12T03:44:52.215Z",
+      "author_id": "88617833486876672",
+      "text": "\u003c:dColon:1026544580029595739\u003e"
+    },
+    {
+      "timestamp": "2022-10-12T03:44:05.575Z",
+      "author_id": "467042519860117505",
+      "text": "straight to jail"
+    },
+    {
+      "timestamp": "2022-10-12T03:43:56.477Z",
+      "author_id": "88617833486876672",
+      "text": "or is that illegal"
+    },
+    {
+      "timestamp": "2022-10-12T03:43:54.44Z",
+      "author_id": "88617833486876672",
+      "text": "can u use it to make a quesadilla"
+    },
+    {
+      "timestamp": "2022-10-12T03:43:29.539Z",
+      "author_id": "467042519860117505",
+      "text": "good stuff, karni. Thanks for sharing. Looks yum. Maybe one day when i'm fortunate enough, i'll try it"
+    },
+    {
+      "timestamp": "2022-10-12T03:43:12.106Z",
+      "author_id": "869320557672423455",
+      "text": "nope"
+    },
+    {
+      "timestamp": "2022-10-12T03:42:21.697Z",
+      "author_id": "88617833486876672",
+      "text": "u dont put meat in it and roll it up?"
+    },
+    {
+      "timestamp": "2022-10-12T03:41:52.257Z",
+      "author_id": "869320557672423455",
+      "text": "or sambar"
+    },
+    {
+      "timestamp": "2022-10-12T03:41:49.136Z",
+      "author_id": "869320557672423455",
+      "text": "you eat it with chutney"
+    },
+    {
+      "timestamp": "2022-10-12T03:40:01.131Z",
+      "author_id": "467042519860117505",
+      "text": "complements dinner ?"
+    },
+    {
+      "timestamp": "2022-10-12T03:39:51.996Z",
+      "author_id": "467042519860117505",
+      "text": "you eat that with tea or coffee or none"
+    },
+    {
+      "timestamp": "2022-10-12T03:39:40.029Z",
+      "author_id": "88617833486876672",
+      "text": "they all look like tortillas to me"
+    },
+    {
+      "timestamp": "2022-10-12T03:39:32.69Z",
+      "author_id": "467042519860117505",
+      "text": "imma have to say, NaN looking nice over there"
+    },
+    {
+      "timestamp": "2022-10-12T03:39:08.665Z",
+      "author_id": "869320557672423455",
+      "text": "lmfaooo"
+    },
+    {
+      "timestamp": "2022-10-12T03:39:04.586Z",
+      "author_id": "467042519860117505",
+      "text": "damn, keep your secrets then"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:58.099Z",
+      "author_id": "869320557672423455",
+      "text": "im bringing none lol"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:55.263Z",
+      "author_id": "869320557672423455",
+      "text": "theyre all good"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:52.847Z",
+      "author_id": "869320557672423455",
+      "text": "this is dosa"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:51.812Z",
+      "author_id": "869320557672423455",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-12T03:38:46.954Z",
+      "author_id": "467042519860117505",
+      "text": "whats better"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:37.193Z",
+      "author_id": "869320557672423455",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-12T03:38:34.679Z",
+      "author_id": "869320557672423455",
+      "text": "this is naan"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:30.988Z",
+      "author_id": "467042519860117505",
+      "text": "Karni, which one of the above are you bringing"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:26.793Z",
+      "author_id": "869320557672423455",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-12T03:38:21.04Z",
+      "author_id": "869320557672423455",
+      "text": "ok this is chapti"
+    },
+    {
+      "timestamp": "2022-10-12T03:38:13.284Z",
+      "author_id": "869320557672423455",
+      "text": "a lot"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:52.733Z",
+      "author_id": "363859522038530066",
+      "text": "i was pinged"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:52.318Z",
+      "author_id": "88617833486876672",
+      "text": "bruh how many variants of flat bread does india have"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:47.323Z",
+      "author_id": "869320557672423455",
+      "text": "and different from naan"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:37.11Z",
+      "author_id": "869320557672423455",
+      "text": "which is different from a dosa"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:32.44Z",
+      "author_id": "869320557672423455",
+      "text": "i think of chapati"
+    },
+    {
+      "timestamp": "2022-10-12T03:37:28.813Z",
+      "author_id": "869320557672423455",
+      "text": "when you say indian tortilla"
+    },
+    {
+      "timestamp": "2022-10-12T03:36:48.512Z",
+      "author_id": "88617833486876672",
+      "text": "when r u gonna bring indian totrilla"
+    },
+    {
+      "timestamp": "2022-10-12T03:36:18.874Z",
+      "author_id": "88617833486876672",
+      "text": "infinite money glitch"
+    },
+    {
+      "timestamp": "2022-10-12T03:36:14.116Z",
+      "author_id": "869320557672423455",
+      "text": "im lazy"
+    },
+    {
+      "timestamp": "2022-10-12T03:36:08.356Z",
+      "author_id": "88617833486876672",
+      "text": "how r u gonna be on icc and not extort the school for pizza for every chance u get smh"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:46.155Z",
+      "author_id": "869320557672423455",
+      "text": "thank you so much"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:40.437Z",
+      "author_id": "467042519860117505",
+      "text": "good luck on your locked Fn key adventure, karni"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:23.838Z",
+      "author_id": "88617833486876672",
+      "text": "icc sugar mommy 🥺"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:20.381Z",
+      "author_id": "869320557672423455",
+      "text": "aight im headin out"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:17.779Z",
+      "author_id": "467042519860117505",
+      "text": "WOOT"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:14.978Z",
+      "author_id": "467042519860117505",
+      "text": "YAY"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:12.367Z",
+      "author_id": "869320557672423455",
+      "text": "about that"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:11.94Z",
+      "author_id": "467042519860117505",
+      "text": "yay"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:09.93Z",
+      "author_id": "467042519860117505",
+      "text": "Woot"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:07.442Z",
+      "author_id": "869320557672423455",
+      "text": "ok well"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:03.394Z",
+      "author_id": "467042519860117505",
+      "text": "Pizza's on Karni"
+    },
+    {
+      "timestamp": "2022-10-12T03:35:02.206Z",
+      "author_id": "869320557672423455",
+      "text": "\u003c:FrankLovesYou:928791484818423839\u003e"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:58.479Z",
+      "author_id": "467042519860117505",
+      "text": "Good job team"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:48.4Z",
+      "author_id": "467042519860117505",
+      "text": "PATS ON THE BACK FOR EVERYONE"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:48.275Z",
+      "author_id": "869320557672423455",
+      "text": "i literally did not know what f1 was"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:45.78Z",
+      "author_id": "88617833486876672",
+      "text": "thanks u too"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:43.241Z",
+      "author_id": "467042519860117505",
+      "text": "WE DID IT"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:41.052Z",
+      "author_id": "467042519860117505",
+      "text": "YAY"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:40.592Z",
+      "author_id": "869320557672423455",
+      "text": "thank you for the help"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:26.155Z",
+      "author_id": "869320557672423455",
+      "text": "\u003c@467042519860117505\u003e im blind"
+    },
+    {
+      "timestamp": "2022-10-12T03:34:10.461Z",
+      "author_id": "869320557672423455",
+      "text": "OH"
+    },
+    {
+      "timestamp": "2022-10-12T03:33:54.38Z",
+      "author_id": "88617833486876672",
+      "text": "click thios button?"
+    },
+    {
+      "timestamp": "2022-10-12T03:33:15.09Z",
+      "author_id": "869320557672423455",
+      "text": "hm"
+    },
+    {
+      "timestamp": "2022-10-12T03:32:46.368Z",
+      "author_id": "467042519860117505",
+      "text": "Maybe?"
+    },
+    {
+      "timestamp": "2022-10-12T03:32:14.039Z",
+      "author_id": "467042519860117505",
+      "text": "LG control center should look like"
+    },
+    {
+      "timestamp": "2022-10-12T03:32:07.318Z",
+      "author_id": "467042519860117505",
+      "text": "Hmm"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:38.002Z",
+      "author_id": "869320557672423455",
+      "text": "ok let me look"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:33.877Z",
+      "author_id": "869320557672423455",
+      "text": "no"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:28.009Z",
+      "author_id": "88617833486876672",
+      "text": "for jet engine noises"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:24.302Z",
+      "author_id": "467042519860117505",
+      "text": "Is there a system settings"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:19.858Z",
+      "author_id": "869320557672423455",
+      "text": "why"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:14.763Z",
+      "author_id": "869320557672423455",
+      "text": "this is fn + f1"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:13.105Z",
+      "author_id": "88617833486876672",
+      "text": "max out the fan 👀"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:06.916Z",
+      "author_id": "467042519860117505",
+      "text": "Does Fn + F1 do the same thing ?"
+    },
+    {
+      "timestamp": "2022-10-12T03:31:04.244Z",
+      "author_id": "869320557672423455",
+      "text": "yes"
+    },
+    {
+      "timestamp": "2022-10-12T03:30:50.732Z",
+      "author_id": "467042519860117505",
+      "text": "Is that what F1 does ?"
+    },
+    {
+      "timestamp": "2022-10-12T03:30:33.978Z",
+      "author_id": "869320557672423455",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-12T03:30:28.253Z",
+      "author_id": "869320557672423455",
+      "text": "this thing?"
+    },
+    {
+      "timestamp": "2022-10-12T03:29:29.324Z",
+      "author_id": "869320557672423455",
+      "text": "oh"
+    },
+    {
+      "timestamp": "2022-10-12T03:29:27.737Z",
+      "author_id": "869320557672423455",
+      "text": "what is an lg control center"
+    },
+    {
+      "timestamp": "2022-10-12T03:28:07.615Z",
+      "author_id": "467042519860117505",
+      "text": "Have you tried the\n\nYou need to open the LG control center [F1 or Fn+F1],  \nClick on 'System settings'\nscroll all the way down. \nIn the bottom left there's an option called 'Hotkey mode setttings', \nmake sure you choose 'use' to enable the fn lock.\n?"
+    },
+    {
+      "timestamp": "2022-10-12T03:27:51.213Z",
+      "author_id": "88617833486876672",
+      "text": "lowkey the same weight as my macbook whilst having an extra 3 inches 👀"
+    },
+    {
+      "timestamp": "2022-10-12T03:27:05.265Z",
+      "author_id": "88617833486876672",
+      "text": "in case they announced a newer and cooler one for 23"
+    },
+    {
+      "timestamp": "2022-10-12T03:26:48.409Z",
+      "author_id": "88617833486876672",
+      "text": "2022 or whatever the fuck the newest or 2nd newest model is xd"
+    },
+    {
+      "timestamp": "2022-10-12T03:26:18.931Z",
+      "author_id": "869320557672423455",
+      "text": "or even less than that"
+    },
+    {
+      "timestamp": "2022-10-12T03:26:15.806Z",
+      "author_id": "869320557672423455",
+      "text": "because i bought it like a month ago"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:47.428Z",
+      "author_id": "869320557672423455",
+      "text": "uh 2022 model i guess"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:36.737Z",
+      "author_id": "869320557672423455",
+      "text": "oh it's the lg gram"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:36.285Z",
+      "author_id": "88617833486876672",
+      "text": "show ur license and registration too"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:27.917Z",
+      "author_id": "467042519860117505",
+      "text": "Show me the Carfax"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:20.358Z",
+      "author_id": "467042519860117505",
+      "text": "What's your make and model karni"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:09.845Z",
+      "author_id": "869320557672423455",
+      "text": "i'll do it later lmao"
+    },
+    {
+      "timestamp": "2022-10-12T03:25:05.501Z",
+      "author_id": "869320557672423455",
+      "text": "and just didnt want to think"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:58.36Z",
+      "author_id": "869320557672423455",
+      "text": "i looked at it"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:57.081Z",
+      "author_id": "88617833486876672",
+      "text": "or did i accidentally uninstall it that one time SDJFGLSKDFGASDF"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:55.444Z",
+      "author_id": "869320557672423455",
+      "text": "honestly jason"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:50.502Z",
+      "author_id": "467042519860117505",
+      "text": "Have you looked up {computer make/model} lock fn on Google ?"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:46.855Z",
+      "author_id": "88617833486876672",
+      "text": "lg control panel?"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:44.495Z",
+      "author_id": "88617833486876672",
+      "text": "did the reddit thing not work?"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:21.284Z",
+      "author_id": "869320557672423455",
+      "text": "\u003c@122536633546309632\u003e \u003c@363859522038530066\u003e"
+    },
+    {
+      "timestamp": "2022-10-12T03:24:07.369Z",
+      "author_id": "869320557672423455",
+      "text": "ok bet"
+    },
+    {
+      "timestamp": "2022-10-12T03:23:59.546Z",
+      "author_id": "869320557672423455",
+      "text": "so i gotta figure it out"
+    },
+    {
+      "timestamp": "2022-10-12T03:23:58.819Z",
+      "author_id": "467042519860117505",
+      "text": "You might have to call geek squad and the fire department"
+    },
+    {
+      "timestamp": "2022-10-12T03:23:52.229Z",
+      "author_id": "869320557672423455",
+      "text": "there isnt one"
+    },
+    {
+      "timestamp": "2022-10-12T03:23:36.519Z",
+      "author_id": "467042519860117505",
+      "text": "There's usually cute pictures on the keys that show a lock sign. If there isn't one then. 👀"
+    },
+    {
+      "timestamp": "2022-10-12T03:18:26.24Z",
+      "author_id": "88617833486876672",
+      "text": "https://www.reddit.com/r/laptops/comments/8okl5i/lg_gram_2017_function_keys/"
+    },
+    {
+      "timestamp": "2022-10-12T03:18:25.099Z",
+      "author_id": "869320557672423455",
+      "text": "alan dont upvote that"
+    },
+    {
+      "timestamp": "2022-10-12T03:18:16.659Z",
+      "author_id": "869320557672423455",
+      "text": "i will kill you"
+    },
+    {
+      "timestamp": "2022-10-12T03:18:09.301Z",
+      "author_id": "88617833486876672",
+      "text": "u could tape it down"
+    },
+    {
+      "timestamp": "2022-10-12T03:18:07.621Z",
+      "author_id": "869320557672423455",
+      "text": "on my old laptop it would be esc + fn"
+    },
+    {
+      "timestamp": "2022-10-12T03:17:56.567Z",
+      "author_id": "869320557672423455",
+      "text": "how do i lock my fn keys"
+    },
+    {
+      "timestamp": "2022-10-11T21:59:52.613Z",
+      "author_id": "275477745256103946",
+      "text": "This has been helpful, thx y’all"
+    },
+    {
+      "timestamp": "2022-10-11T21:06:17.898Z",
+      "author_id": "972572025270960202",
+      "text": "You don’t need even 1TB, you’ll be fine lol"
+    },
+    {
+      "timestamp": "2022-10-11T21:02:54.272Z",
+      "author_id": "632347645201088513",
+      "text": "GG Drive \u003e\u003e Dropbox"
+    },
+    {
+      "timestamp": "2022-10-11T20:57:55.456Z",
+      "author_id": "869320557672423455",
+      "text": "onedrive"
+    },
+    {
+      "timestamp": "2022-10-11T20:57:47.568Z",
+      "author_id": "869320557672423455",
+      "text": "ye dropbox, google drive, etc."
+    },
+    {
+      "timestamp": "2022-10-11T20:55:55.641Z",
+      "author_id": "275477745256103946",
+      "text": "U mean like Dropbox?"
+    },
+    {
+      "timestamp": "2022-10-11T20:55:19.228Z",
+      "author_id": "275477745256103946",
+      "text": "I got a 1TB external hard drive"
+    },
+    {
+      "timestamp": "2022-10-11T20:51:12.96Z",
+      "author_id": "869320557672423455",
+      "text": "fr"
+    },
+    {
+      "timestamp": "2022-10-11T20:51:10.506Z",
+      "author_id": "869320557672423455",
+      "text": "^"
+    },
+    {
+      "timestamp": "2022-10-11T20:50:49.61Z",
+      "author_id": "393069508027351051",
+      "text": "but yea external is always an option"
+    },
+    {
+      "timestamp": "2022-10-11T20:50:44.329Z",
+      "author_id": "393069508027351051",
+      "text": "if all ur doing is school and programmign stuff"
+    },
+    {
+      "timestamp": "2022-10-11T20:50:36.392Z",
+      "author_id": "393069508027351051",
+      "text": "doubt you would need more space tbh"
+    },
+    {
+      "timestamp": "2022-10-11T20:50:25.591Z",
+      "author_id": "869320557672423455",
+      "text": "if you need more space there's icloud storage and just getting an external harddrive which is isnt a problem at all"
+    },
+    {
+      "timestamp": "2022-10-11T20:50:00.509Z",
+      "author_id": "869320557672423455",
+      "text": "as for programming i mean shit you can program on anything unless if maybe youre tryna make a video game then maybe get a gaming laptop"
+    },
+    {
+      "timestamp": "2022-10-11T20:49:34.322Z",
+      "author_id": "869320557672423455",
+      "text": "looks like that one is also windows 10 and not windows 11 but that's not gonna kill you lmao i honestly im still tryna get used to windows 11"
+    },
+    {
+      "timestamp": "2022-10-11T20:48:53.355Z",
+      "author_id": "869320557672423455",
+      "text": "i also do like a bigger screen size too personally"
+    },
+    {
+      "timestamp": "2022-10-11T20:48:36.295Z",
+      "author_id": "869320557672423455",
+      "text": "ssd is good i know a lot of people like 1TB but yanno i save my ~~porn~~ stuff on icloud and shit"
+    },
+    {
+      "timestamp": "2022-10-11T20:47:45.765Z",
+      "author_id": "869320557672423455",
+      "text": "i7 is fast which is good"
+    },
+    {
+      "timestamp": "2022-10-11T20:47:29.179Z",
+      "author_id": "869320557672423455",
+      "text": "you get like $100 off from the school"
+    },
+    {
+      "timestamp": "2022-10-11T20:47:23.034Z",
+      "author_id": "869320557672423455",
+      "text": "if youre gonna get HP"
+    },
+    {
+      "timestamp": "2022-10-11T20:46:39.869Z",
+      "author_id": "275477745256103946",
+      "text": "\u003c@869320557672423455\u003e is this a good computer for programming? Would I need more space?"
+    },
+    {
+      "timestamp": "2022-10-11T18:06:28.549Z",
+      "author_id": "625024630067036170",
+      "text": "damn ivern carry in solo q"
+    },
+    {
+      "timestamp": "2022-10-11T18:06:13.704Z",
+      "author_id": "625024630067036170",
+      "text": "Wait nvm"
+    },
+    {
+      "timestamp": "2022-10-11T18:06:06.862Z",
+      "author_id": "625024630067036170",
+      "text": "Is this in urf?"
+    },
+    {
+      "timestamp": "2022-10-11T04:40:30.463Z",
+      "author_id": "281466863270232074",
+      "text": "im pretty sure thats his name"
+    },
+    {
+      "timestamp": "2022-10-11T04:40:24.16Z",
+      "author_id": "281466863270232074",
+      "text": "i remember when ivern came out"
+    },
+    {
+      "timestamp": "2022-10-11T04:40:18.997Z",
+      "author_id": "281466863270232074",
+      "text": "oh man funny tree"
+    },
+    {
+      "timestamp": "2022-10-11T04:38:41.16Z",
+      "author_id": "131555215555035136",
+      "text": "TREE"
+    },
+    {
+      "timestamp": "2022-10-11T03:13:18.968Z",
+      "author_id": "281466863270232074",
+      "text": "Look at this funny giraffe"
+    },
+    {
+      "timestamp": "2022-10-11T03:13:09.038Z",
+      "author_id": "281466863270232074",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-10T21:58:57.804Z",
+      "author_id": "275477745256103946",
+      "text": "yes, desktop app is better terminology"
+    },
+    {
+      "timestamp": "2022-10-10T21:51:46.473Z",
+      "author_id": "268909280160120833",
+      "text": "I don’t think he means browsers I think he means just like desktop apps"
+    },
+    {
+      "timestamp": "2022-10-10T21:51:15.669Z",
+      "author_id": "268909280160120833",
+      "text": "Windows, directional arrow??"
+    },
+    {
+      "timestamp": "2022-10-10T21:42:03.275Z",
+      "author_id": "869320557672423455",
+      "text": "there's a shortcut?"
+    },
+    {
+      "timestamp": "2022-10-10T21:40:12.138Z",
+      "author_id": "275477745256103946",
+      "text": "\u003c@268909280160120833\u003e what's that shortcut that let's u split screen to 2 browsers?"
+    },
+    {
+      "timestamp": "2022-10-09T03:32:09.925Z",
+      "author_id": "619385101473677312",
+      "text": "new Ivu track 🙀"
+    },
+    {
+      "timestamp": "2022-10-09T03:32:02.086Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.youtube.com/watch?v=SwtZQrTer6k\u0026ab_channel=Ivu"
+    },
+    {
+      "timestamp": "2022-10-09T03:18:07.623Z",
+      "author_id": "869320557672423455",
+      "text": "play with usssss"
+    },
+    {
+      "timestamp": "2022-10-09T03:18:04.393Z",
+      "author_id": "869320557672423455",
+      "text": "bro dont say might"
+    },
+    {
+      "timestamp": "2022-10-09T02:52:31.605Z",
+      "author_id": "122536633546309632",
+      "text": "I might play minecraft again just to farm kirbos"
+    },
+    {
+      "timestamp": "2022-10-09T02:52:20.571Z",
+      "author_id": "122536633546309632",
+      "text": "I love that sm"
+    },
+    {
+      "timestamp": "2022-10-09T02:39:48.087Z",
+      "author_id": "619385101473677312",
+      "text": "\u003c@122536633546309632\u003e"
+    },
+    {
+      "timestamp": "2022-10-09T02:39:40.108Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.instagram.com/reel/CiPsb9_rZVC/?igshid=NzNkNDdiOGI="
+    },
+    {
+      "timestamp": "2022-10-09T01:20:43.524Z",
+      "author_id": "619385101473677312",
+      "text": "Me too"
+    },
+    {
+      "timestamp": "2022-10-09T01:16:03.891Z",
+      "author_id": "869320557672423455",
+      "text": "god no please"
+    },
+    {
+      "timestamp": "2022-10-09T01:15:44.507Z",
+      "author_id": "88617833486876672",
+      "text": "cheeto pic"
+    },
+    {
+      "timestamp": "2022-10-09T01:12:34.189Z",
+      "author_id": "869320557672423455",
+      "text": "no he's the woman in the bed"
+    },
+    {
+      "timestamp": "2022-10-09T01:09:58.015Z",
+      "author_id": "316384186573520898",
+      "text": "I still think Charlie's the wizard"
+    },
+    {
+      "timestamp": "2022-10-09T01:03:02.65Z",
+      "author_id": "869320557672423455",
+      "text": "Wait jk I’m the crow"
+    },
+    {
+      "timestamp": "2022-10-09T01:02:49.459Z",
+      "author_id": "869320557672423455",
+      "text": "I’m the wizard"
+    },
+    {
+      "timestamp": "2022-10-09T01:02:36.141Z",
+      "author_id": "869320557672423455",
+      "text": "That’s literally Charlie"
+    },
+    {
+      "timestamp": "2022-10-09T01:02:12.275Z",
+      "author_id": "869320557672423455",
+      "text": "I need a new headshot tho ngl"
+    },
+    {
+      "timestamp": "2022-10-09T01:02:05.352Z",
+      "author_id": "869320557672423455",
+      "text": "That’s so good"
+    },
+    {
+      "timestamp": "2022-10-09T01:02:03.276Z",
+      "author_id": "869320557672423455",
+      "text": "I’m dead"
+    },
+    {
+      "timestamp": "2022-10-09T00:52:29.111Z",
+      "author_id": "364857540745625612",
+      "text": "I am the demon coming out of the book"
+    },
+    {
+      "timestamp": "2022-10-09T00:49:44.584Z",
+      "author_id": "749845465071222895",
+      "text": "karni as a qr code from website above"
+    },
+    {
+      "timestamp": "2022-10-09T00:49:33.528Z",
+      "author_id": "619385101473677312",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-09T00:49:07.713Z",
+      "author_id": "619385101473677312",
+      "text": "This reminded me of \u003c@364857540745625612\u003e"
+    },
+    {
+      "timestamp": "2022-10-09T00:38:49.712Z",
+      "author_id": "749845465071222895",
+      "text": "https://qrd.by/designer-qr-code-with-embeded-logo"
+    },
+    {
+      "timestamp": "2022-10-08T22:47:09.234Z",
+      "author_id": "869320557672423455",
+      "text": "We’re hoping to print a big Frank"
+    },
+    {
+      "timestamp": "2022-10-08T22:47:03.025Z",
+      "author_id": "869320557672423455",
+      "text": "I’m crying"
+    },
+    {
+      "timestamp": "2022-10-08T22:41:49.936Z",
+      "author_id": "88617833486876672",
+      "text": "👀"
+    },
+    {
+      "timestamp": "2022-10-08T22:41:38.463Z",
+      "author_id": "749845465071222895",
+      "text": "yes, qr code shaped like karni to take attendance"
+    },
+    {
+      "timestamp": "2022-10-08T22:38:19.299Z",
+      "author_id": "88617833486876672",
+      "text": "can we print out a big poster of karni and put it in the si room"
+    },
+    {
+      "timestamp": "2022-10-08T22:37:22.196Z",
+      "author_id": "869320557672423455",
+      "text": "I’m curious tho if they print photos"
+    },
+    {
+      "timestamp": "2022-10-08T22:37:13.598Z",
+      "author_id": "869320557672423455",
+      "text": "It’s pricey"
+    },
+    {
+      "timestamp": "2022-10-08T22:37:10.055Z",
+      "author_id": "869320557672423455",
+      "text": "It’s not"
+    },
+    {
+      "timestamp": "2022-10-08T22:37:05.603Z",
+      "author_id": "869320557672423455",
+      "text": "Yea that’s the one I’m talking about"
+    },
+    {
+      "timestamp": "2022-10-08T22:37:05.36Z",
+      "author_id": "88617833486876672",
+      "text": "which im pretty sure is most def not 50 cents for color"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:55.771Z",
+      "author_id": "88617833486876672",
+      "text": "https://www.fullerton.edu/it/services/dps/"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:37.317Z",
+      "author_id": "88617833486876672",
+      "text": "they have an actual print shop too tho"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:24.846Z",
+      "author_id": "869320557672423455",
+      "text": "This is true if you don’t want like photo quality you can just literally print"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:22.299Z",
+      "author_id": "88617833486876672",
+      "text": "50 cents for color 👀"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:08.23Z",
+      "author_id": "869320557672423455",
+      "text": "Bro we ain’t printin pictures that don’t go anywhere"
+    },
+    {
+      "timestamp": "2022-10-08T22:36:07.788Z",
+      "author_id": "88617833486876672",
+      "text": "the library does printing xd"
+    },
+    {
+      "timestamp": "2022-10-08T22:35:54.757Z",
+      "author_id": "869320557672423455",
+      "text": "And the school actually does have an area for prints but I don’t think it’s specific to photos"
+    },
+    {
+      "timestamp": "2022-10-08T22:35:54.175Z",
+      "author_id": "88617833486876672",
+      "text": "but icc sugar mother for acm : ("
+    },
+    {
+      "timestamp": "2022-10-08T22:35:39.596Z",
+      "author_id": "869320557672423455",
+      "text": "Oh right Office Depot and office max"
+    },
+    {
+      "timestamp": "2022-10-08T22:35:30.564Z",
+      "author_id": "869320557672423455",
+      "text": "Can’t help you with that"
+    },
+    {
+      "timestamp": "2022-10-08T22:35:30.492Z",
+      "author_id": "749845465071222895",
+      "text": "office depot is near school and does that kind of thing too"
+    },
+    {
+      "timestamp": "2022-10-08T22:35:13.868Z",
+      "author_id": "88617833486876672",
+      "text": "whilst extorting the school for money thooooo"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:52.736Z",
+      "author_id": "869320557672423455",
+      "text": "You can print out anything I’m not stopping you"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:39.825Z",
+      "author_id": "88617833486876672",
+      "text": "so i have an excuse to print out my whole photo catalog xd"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:28.079Z",
+      "author_id": "869320557672423455",
+      "text": "It would be digital but sure"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:19.058Z",
+      "author_id": "88617833486876672",
+      "text": "should we have an acm scrapbook 👀"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:14.496Z",
+      "author_id": "869320557672423455",
+      "text": "You can get prints from a drugstore or like target even"
+    },
+    {
+      "timestamp": "2022-10-08T22:34:05.746Z",
+      "author_id": "869320557672423455",
+      "text": "yeah but for those who don’t have membership"
+    },
+    {
+      "timestamp": "2022-10-08T22:33:42.133Z",
+      "author_id": "88617833486876672",
+      "text": "get ur prints and ur medicine from costco"
+    },
+    {
+      "timestamp": "2022-10-08T22:33:29.851Z",
+      "author_id": "869320557672423455",
+      "text": "pretty fast"
+    },
+    {
+      "timestamp": "2022-10-08T22:33:22.87Z",
+      "author_id": "869320557672423455",
+      "text": "I’ve gotten prints from cvs"
+    },
+    {
+      "timestamp": "2022-10-08T22:21:50.771Z",
+      "author_id": "275477745256103946",
+      "text": "good thinking"
+    },
+    {
+      "timestamp": "2022-10-08T22:17:44.137Z",
+      "author_id": "88617833486876672",
+      "text": "costco?"
+    },
+    {
+      "timestamp": "2022-10-08T22:13:37.836Z",
+      "author_id": "275477745256103946",
+      "text": "what's the best way to print photos?"
+    },
+    {
+      "timestamp": "2022-10-07T15:46:58.35Z",
+      "author_id": "619385101473677312",
+      "text": "Free styling code, is like being a rapper for computers"
+    },
+    {
+      "timestamp": "2022-10-07T02:28:43.467Z",
+      "author_id": "281466863270232074",
+      "text": "yo thats actually pretty pog a lot of these important props can actually be found in our design slides in \u003c#802314335111741490\u003e"
+    },
+    {
+      "timestamp": "2022-10-07T01:09:14.786Z",
+      "author_id": "275477745256103946",
+      "text": "https://twitter.com/vincasstonys/status/1577551954137743360?s=46\u0026t=aWZPBIKRRyGKipanVur6Xw"
+    },
+    {
+      "timestamp": "2022-10-06T23:48:05.789Z",
+      "author_id": "316384186573520898",
+      "text": "Frank is not the only ACM shark 🤯"
+    },
+    {
+      "timestamp": "2022-10-06T23:48:00.174Z",
+      "author_id": "316384186573520898",
+      "text": "https://www.youtube.com/watch?v=3SiIkfZp9nA"
+    },
+    {
+      "timestamp": "2022-10-06T23:09:34.357Z",
+      "author_id": "316384186573520898",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T20:43:43.485Z",
+      "author_id": "328631579406761984",
+      "text": "Mario trailer finally dropped"
+    },
+    {
+      "timestamp": "2022-10-06T20:27:36.489Z",
+      "author_id": "632347645201088513",
+      "text": "but can u fix the printer tho"
+    },
+    {
+      "timestamp": "2022-10-06T15:56:37.454Z",
+      "author_id": "869320557672423455",
+      "text": "I’m crying"
+    },
+    {
+      "timestamp": "2022-10-06T15:54:35.135Z",
+      "author_id": "281466863270232074",
+      "text": "i made it in life as a comp sci student"
+    },
+    {
+      "timestamp": "2022-10-06T15:54:23.913Z",
+      "author_id": "281466863270232074",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T06:09:05.407Z",
+      "author_id": "268909280160120833",
+      "text": "I’m gonna hop on just to play some Halloween maps"
+    },
+    {
+      "timestamp": "2022-10-06T06:08:53.246Z",
+      "author_id": "268909280160120833",
+      "text": "LETS GOOOO"
+    },
+    {
+      "timestamp": "2022-10-06T06:02:24.25Z",
+      "author_id": "606689504165888050",
+      "text": "🎃 Happy Scream Fortress 🎃 \u003c@268909280160120833\u003e"
+    },
+    {
+      "timestamp": "2022-10-06T05:08:35.5Z",
+      "author_id": "260555631545679873",
+      "text": "true im looking into that yuumi jg pick https://youtu.be/2IKOAz7kB64"
+    },
+    {
+      "timestamp": "2022-10-06T05:08:09.717Z",
+      "author_id": "124316440768544768",
+      "text": "recommended pathing and pets incoming \u003ca:NODDERS:878312299415371806\u003e"
+    },
+    {
+      "timestamp": "2022-10-06T05:07:58.374Z",
+      "author_id": "124316440768544768",
+      "text": "its ok cause with preseason changes you won't need to do much jungling anymore \u003c:kappapeek:704818744970707016\u003e"
+    },
+    {
+      "timestamp": "2022-10-06T05:06:36.541Z",
+      "author_id": "260555631545679873",
+      "text": "i just wish i didnt need to relearn the entire jungler role every season"
+    },
+    {
+      "timestamp": "2022-10-06T05:02:26.594Z",
+      "author_id": "131555215555035136",
+      "text": "https://en.wikipedia.org/wiki/Stockholm_syndrome"
+    },
+    {
+      "timestamp": "2022-10-06T05:02:16.195Z",
+      "author_id": "131555215555035136",
+      "text": "jk ill be back for more"
+    },
+    {
+      "timestamp": "2022-10-06T05:02:11.708Z",
+      "author_id": "131555215555035136",
+      "text": "dead game gg go next"
+    },
+    {
+      "timestamp": "2022-10-06T04:59:42.646Z",
+      "author_id": "260555631545679873",
+      "text": "how do you feel about the preseason changes?"
+    },
+    {
+      "timestamp": "2022-10-06T04:59:26.953Z",
+      "author_id": "131555215555035136",
+      "text": "common hillary W"
+    },
+    {
+      "timestamp": "2022-10-06T04:59:17.602Z",
+      "author_id": "260555631545679873",
+      "text": "\u003c@131555215555035136\u003e hillary's take on eg vs mad https://twitter.com/hillaryclinton/status/829846842150096896?ref_src=embedly"
+    },
+    {
+      "timestamp": "2022-10-06T04:58:55.708Z",
+      "author_id": "619385101473677312",
+      "text": "high pitch hurt my ears lol"
+    },
+    {
+      "timestamp": "2022-10-06T04:58:36.657Z",
+      "author_id": "131555215555035136",
+      "text": "https://www.twitch.tv/caedrel/clip/PoliteFaintManateeDogFace-o8WDbngkdO6-BsnD"
+    },
+    {
+      "timestamp": "2022-10-06T04:58:35.761Z",
+      "author_id": "260555631545679873",
+      "text": "oof, what's the damage?"
+    },
+    {
+      "timestamp": "2022-10-06T04:58:15.47Z",
+      "author_id": "619385101473677312",
+      "text": "never unplug ur mic while ur recording ;-;"
+    },
+    {
+      "timestamp": "2022-10-06T04:58:11.106Z",
+      "author_id": "260555631545679873",
+      "text": "lmao imagine losing to a fornite kid who's been playing league for 3 years"
+    },
+    {
+      "timestamp": "2022-10-06T04:57:51.917Z",
+      "author_id": "131555215555035136",
+      "text": "CUTE BOY JOJOJOJOJOJO"
+    },
+    {
+      "timestamp": "2022-10-06T04:57:47.045Z",
+      "author_id": "131555215555035136",
+      "text": "CUTE BOY CTE BOY CUTE BOY JOJOJO"
+    },
+    {
+      "timestamp": "2022-10-06T04:57:26.926Z",
+      "author_id": "260555631545679873",
+      "text": "you gotta admit that eg pick during playins was pretty hype though"
+    },
+    {
+      "timestamp": "2022-10-06T04:56:46.757Z",
+      "author_id": "131555215555035136",
+      "text": "FNATIC, G2, and ROGUE are EU"
+    },
+    {
+      "timestamp": "2022-10-06T04:56:32.636Z",
+      "author_id": "131555215555035136",
+      "text": "they will win the championship"
+    },
+    {
+      "timestamp": "2022-10-06T04:56:27.43Z",
+      "author_id": "131555215555035136",
+      "text": "and GENG is the penultimate"
+    },
+    {
+      "timestamp": "2022-10-06T04:56:25.656Z",
+      "author_id": "260555631545679873",
+      "text": "i dont know which teams are eu lmao"
+    },
+    {
+      "timestamp": "2022-10-06T04:56:10.289Z",
+      "author_id": "131555215555035136",
+      "text": "TOP, EDG, JDG, T1, and DWG are the best"
+    },
+    {
+      "timestamp": "2022-10-06T04:55:40.782Z",
+      "author_id": "131555215555035136",
+      "text": "but yeah you put every favorite to win the tournament in like the bottom"
+    },
+    {
+      "timestamp": "2022-10-06T04:55:21.737Z",
+      "author_id": "131555215555035136",
+      "text": "least insane EU simp"
+    },
+    {
+      "timestamp": "2022-10-06T04:54:45.543Z",
+      "author_id": "260555631545679873",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T04:54:42.674Z",
+      "author_id": "260555631545679873",
+      "text": "ive never followed pro league before so i mostly just guessed, how insane am i?"
+    },
+    {
+      "timestamp": "2022-10-06T04:54:03.123Z",
+      "author_id": "131555215555035136",
+      "text": "https://tenor.com/view/say-sike-right-now-meme-queen-tay-gif-14858673"
+    },
+    {
+      "timestamp": "2022-10-06T04:53:54.673Z",
+      "author_id": "619385101473677312",
+      "text": "cuz your out of my leauge"
+    },
+    {
+      "timestamp": "2022-10-06T04:53:50.839Z",
+      "author_id": "619385101473677312",
+      "text": "baby are you world chapionships"
+    },
+    {
+      "timestamp": "2022-10-06T04:53:38.157Z",
+      "author_id": "131555215555035136",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T04:53:30.031Z",
+      "author_id": "131555215555035136",
+      "text": "and obv c9 players for most of this shit"
+    },
+    {
+      "timestamp": "2022-10-06T04:53:25.103Z",
+      "author_id": "131555215555035136",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T04:53:18.12Z",
+      "author_id": "131555215555035136",
+      "text": "and C9 to win worlds obv"
+    },
+    {
+      "timestamp": "2022-10-06T04:53:12.829Z",
+      "author_id": "131555215555035136",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T04:53:02.79Z",
+      "author_id": "131555215555035136",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-06T04:51:46.696Z",
+      "author_id": "260555631545679873",
+      "text": "show pickems"
+    },
+    {
+      "timestamp": "2022-10-06T04:51:22.108Z",
+      "author_id": "131555215555035136",
+      "text": "c9"
+    },
+    {
+      "timestamp": "2022-10-06T04:51:00.872Z",
+      "author_id": "88617833486876672",
+      "text": "eg"
+    },
+    {
+      "timestamp": "2022-10-06T04:50:26.687Z",
+      "author_id": "260555631545679873",
+      "text": "\u003c@131555215555035136\u003e who are you rooting for for worlds"
+    },
+    {
+      "timestamp": "2022-10-06T04:27:54.542Z",
+      "author_id": "619385101473677312",
+      "text": "JUST RE-RECORDED SOMETHING I FORGOT I WROTE 2 DAYS AGO RN AND I LEARNED IT BY EAR AND IT FEELS AMAZING"
+    },
+    {
+      "timestamp": "2022-10-06T04:27:36.113Z",
+      "author_id": "619385101473677312",
+      "text": "https://tenor.com/view/venom-dunking-on-spiderman-gif-26119954"
+    },
+    {
+      "timestamp": "2022-10-06T04:27:29.575Z",
+      "author_id": "619385101473677312",
+      "text": "RAHHHHH"
+    },
+    {
+      "timestamp": "2022-10-04T23:06:02.222Z",
+      "author_id": "316384186573520898",
+      "text": "I love that gif"
+    },
+    {
+      "timestamp": "2022-10-04T22:22:47.854Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/350778154979164161/877683931477082174/RDT_20210818_1742262800992165848435274.gif"
+    },
+    {
+      "timestamp": "2022-10-04T22:22:10.057Z",
+      "author_id": "281466863270232074",
+      "text": "you're shitting me"
+    },
+    {
+      "timestamp": "2022-10-04T22:21:17.387Z",
+      "author_id": "170707552495992833",
+      "text": "\u003c@281466863270232074\u003e have u seen this\n\nhttps://twitter.com/autismsweep/status/1576897374533754881?s=46\u0026t=RIwblFALuaspQuQ5KSSE6A"
+    },
+    {
+      "timestamp": "2022-10-04T19:53:28.96Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.youtube.com/watch?v=GQhiHXDTvuA\u0026ab_channel=Chrispy"
+    },
+    {
+      "timestamp": "2022-10-04T16:08:13.636Z",
+      "author_id": "619385101473677312",
+      "text": "besides tech haha"
+    },
+    {
+      "timestamp": "2022-10-04T16:08:06.405Z",
+      "author_id": "619385101473677312",
+      "text": "what is tech day about"
+    },
+    {
+      "timestamp": "2022-10-04T05:22:43.708Z",
+      "author_id": "316384186573520898",
+      "text": "you-"
+    },
+    {
+      "timestamp": "2022-10-04T05:17:56.329Z",
+      "author_id": "268909280160120833",
+      "text": "i-"
+    },
+    {
+      "timestamp": "2022-10-04T05:17:49.24Z",
+      "author_id": "268909280160120833",
+      "text": "https://tenor.com/view/the-simpsons-homer-simpson-good-gif-25287559"
+    },
+    {
+      "timestamp": "2022-10-04T05:15:28.931Z",
+      "author_id": "316384186573520898",
+      "text": "Ahah after I sent that I thought about changing it to angel instead of charlie since I knew you did that"
+    },
+    {
+      "timestamp": "2022-10-04T05:14:27.741Z",
+      "author_id": "268909280160120833",
+      "text": "for 2 hours"
+    },
+    {
+      "timestamp": "2022-10-04T05:14:22.196Z",
+      "author_id": "268909280160120833",
+      "text": "me when i wasted 2, one hour incenses and got nothing notable walking around"
+    },
+    {
+      "timestamp": "2022-10-04T05:00:27.119Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/meevin-melvin-hes-coming-321-run-gif-26186363"
+    },
+    {
+      "timestamp": "2022-10-04T04:59:08.803Z",
+      "author_id": "122536633546309632",
+      "text": "so true"
+    },
+    {
+      "timestamp": "2022-10-04T04:58:44.942Z",
+      "author_id": "316384186573520898",
+      "text": "https://socialfinds.xyz/wp-content/uploads/2022/09/Skyrim-fast-forward-walk.mp4?_=1"
+    },
+    {
+      "timestamp": "2022-10-04T04:58:44.476Z",
+      "author_id": "316384186573520898",
+      "text": "charlie when he gets 1 incense"
+    },
+    {
+      "timestamp": "2022-10-04T04:46:30.525Z",
+      "author_id": "619385101473677312",
+      "text": "Glubbt"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:51.606Z",
+      "author_id": "122536633546309632",
+      "text": "hes a popular man"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:38.525Z",
+      "author_id": "281466863270232074",
+      "text": "there are so many differently sized glubby gifs"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:27.098Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/glubby-glubby-snail-animals-with-captions-funny-animal-slug-gif-25510886"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:26.748Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/glubby-slug-gif-22183030"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:21.808Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/slugs-gif-23979349"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:15.763Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/glubby-snail-gif-23560347"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:15.314Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/animals-with-captions-ritalin-animals-eating-gif-25121922"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:11.437Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/glubby-glubby-snail-animals-with-captions-funny-animal-slug-gif-25510886"
+    },
+    {
+      "timestamp": "2022-10-04T04:41:04.695Z",
+      "author_id": "122536633546309632",
+      "text": "YOOOO"
+    },
+    {
+      "timestamp": "2022-10-04T04:40:56.402Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/glubby-no-more-no-no-more-glubby-sad-gif-25869328"
+    },
+    {
+      "timestamp": "2022-10-04T04:40:45.666Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/826711745296597002/835960646855426058/fa.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:40:36.372Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/glubby-glubby-snail-animals-with-captions-funny-animal-slug-gif-25510886"
+    },
+    {
+      "timestamp": "2022-10-04T04:40:22.162Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/350778154979164161/877683931477082174/RDT_20210818_1742262800992165848435274.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:40:14.47Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/animals-with-captions-wagoogus-wagoogus-jr-tiny-cat-bat-gif-25130263"
+    },
+    {
+      "timestamp": "2022-10-04T04:39:38.23Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/got-damn-steve-blackman-transition-dog-wolf-gif-22558059"
+    },
+    {
+      "timestamp": "2022-10-04T04:39:34.976Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/memes-meme-random-captions-caption-gif-23557955"
+    },
+    {
+      "timestamp": "2022-10-04T04:39:19.491Z",
+      "author_id": "122536633546309632",
+      "text": "LOL"
+    },
+    {
+      "timestamp": "2022-10-04T04:39:15.278Z",
+      "author_id": "281466863270232074",
+      "text": "NO I WAS LITERALLY ABOUT TO SEND THAT"
+    },
+    {
+      "timestamp": "2022-10-04T04:39:04.653Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/caption-oh-no-hes-eating-the-caption-gif-19489436"
+    },
+    {
+      "timestamp": "2022-10-04T04:38:55.443Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/animals-with-captions-yoinky-sploinky-that-yoinky-sploinky-funny-cat-weird-cat-gif-25121768"
+    },
+    {
+      "timestamp": "2022-10-04T04:38:36.624Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/721086321891868762/927773978423066744/Image.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:38:29.959Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/low-intelligence-specimen-cat-funny-caption-meme-gif-26085887"
+    },
+    {
+      "timestamp": "2022-10-04T04:38:19.81Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/my-honest-reaction-cat-cat-my-honest-reaction-cat-with-the-hat-cat-in-the-hat-gif-25359607"
+    },
+    {
+      "timestamp": "2022-10-04T04:38:12.713Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/seal-cope-cute-gif-22998626"
+    },
+    {
+      "timestamp": "2022-10-04T04:37:54.27Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/mine-now-steal-take-grab-mine-gif-13196166"
+    },
+    {
+      "timestamp": "2022-10-04T04:37:42.574Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/cat-caption-idiot-close-gif-20909240"
+    },
+    {
+      "timestamp": "2022-10-04T04:37:24.371Z",
+      "author_id": "281466863270232074",
+      "text": "search up \"but here's the\" in the giphy search"
+    },
+    {
+      "timestamp": "2022-10-04T04:37:11.144Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/but-heres-the-screamer-cat-gif-26604710"
+    },
+    {
+      "timestamp": "2022-10-04T04:36:51.04Z",
+      "author_id": "122536633546309632",
+      "text": "me too"
+    },
+    {
+      "timestamp": "2022-10-04T04:36:47.713Z",
+      "author_id": "281466863270232074",
+      "text": "I have a very large collection"
+    },
+    {
+      "timestamp": "2022-10-04T04:36:47.401Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/seal-sad-cute-animal-caption-gif-20050684"
+    },
+    {
+      "timestamp": "2022-10-04T04:36:38.971Z",
+      "author_id": "122536633546309632",
+      "text": "i feel like were trading our wares"
+    },
+    {
+      "timestamp": "2022-10-04T04:35:09.731Z",
+      "author_id": "281466863270232074",
+      "text": "I spent so long trying to find that"
+    },
+    {
+      "timestamp": "2022-10-04T04:35:00.705Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/508434190916780034/807069302884794408/760562142918344745.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:32:06.554Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/animals-with-captions-tired-animal-tired-dog-gif-25121732"
+    },
+    {
+      "timestamp": "2022-10-04T04:31:48.254Z",
+      "author_id": "122536633546309632",
+      "text": "https://cdn.discordapp.com/emojis/759510833519788075.gif?v=1"
+    },
+    {
+      "timestamp": "2022-10-04T04:31:38.013Z",
+      "author_id": "122536633546309632",
+      "text": "😌"
+    },
+    {
+      "timestamp": "2022-10-04T04:31:34.802Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/350778154979164161/926553171592106084/RDT_20211231_1110365371989908732289189.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:31:18.618Z",
+      "author_id": "281466863270232074",
+      "text": "brooo?????? thats a gif I dont have yet"
+    },
+    {
+      "timestamp": "2022-10-04T04:31:04.513Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/animals-with-captions-salami-cat-kitten-cute-kitten-tiny-cat-gif-25121733"
+    },
+    {
+      "timestamp": "2022-10-04T04:30:18.587Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/sploshj-capybara-gif-23021331"
+    },
+    {
+      "timestamp": "2022-10-04T04:30:01.644Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/my-descent-into-madness-is-complete-madness-going-insane-insanity-mental-gif-22579930"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:47.719Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/the-voices-cat-mad-going-insane-going-crazy-gif-24274574"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:31.432Z",
+      "author_id": "869320557672423455",
+      "text": "Bro deadass"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:30.393Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/insane-cat-joongcat-the-voices-gif-24984217"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:25.616Z",
+      "author_id": "122536633546309632",
+      "text": "you when charlie opens the app pokemon go"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:21.167Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/plompy-fox-funny-animals-john-cena-rotate-gif-20987026"
+    },
+    {
+      "timestamp": "2022-10-04T04:29:12.388Z",
+      "author_id": "869320557672423455",
+      "text": "Me and \u003c@364857540745625612\u003e"
+    },
+    {
+      "timestamp": "2022-10-04T04:28:52.939Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/carl-rat-rats-carl-fighting-fight-gif-19310178"
+    },
+    {
+      "timestamp": "2022-10-04T04:28:37.003Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/cat-insane-gif-21702784"
+    },
+    {
+      "timestamp": "2022-10-04T04:28:22.656Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/floppa-caracal-cat-cute-gif-23601329"
+    },
+    {
+      "timestamp": "2022-10-04T04:26:15.112Z",
+      "author_id": "281466863270232074",
+      "text": "https://media.discordapp.net/attachments/832423825076912128/850058239001624626/do_not_post_this_cat.gif"
+    },
+    {
+      "timestamp": "2022-10-04T04:25:57.173Z",
+      "author_id": "122536633546309632",
+      "text": "me too"
+    },
+    {
+      "timestamp": "2022-10-04T04:25:33.121Z",
+      "author_id": "869320557672423455",
+      "text": "I want someone to do that to me"
+    },
+    {
+      "timestamp": "2022-10-04T04:25:01.579Z",
+      "author_id": "122536633546309632",
+      "text": "chunky kittens \u003e"
+    },
+    {
+      "timestamp": "2022-10-04T04:24:55.595Z",
+      "author_id": "122536633546309632",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-04T04:23:22.106Z",
+      "author_id": "122536633546309632",
+      "text": "reminds me of this one vid hold up"
+    },
+    {
+      "timestamp": "2022-10-04T04:23:13.589Z",
+      "author_id": "122536633546309632",
+      "text": "this gif is making me lose my mind"
+    },
+    {
+      "timestamp": "2022-10-04T04:22:57.09Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/dreaming-key-smash-kitten-cute-gif-17505545"
+    },
+    {
+      "timestamp": "2022-10-04T04:22:00.454Z",
+      "author_id": "122536633546309632",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-04T03:13:09.271Z",
+      "author_id": "88617833486876672",
+      "text": "java moment"
+    },
+    {
+      "timestamp": "2022-10-04T03:07:39.92Z",
+      "author_id": "275477745256103946",
+      "text": "I got a problem"
+    },
+    {
+      "timestamp": "2022-10-04T02:48:03.006Z",
+      "author_id": "316384186573520898",
+      "text": "Half-Dive was canceled, the timeline branched around a year ago 🤖"
+    },
+    {
+      "timestamp": "2022-10-04T02:40:34.654Z",
+      "author_id": "241835484341338115",
+      "text": "we’re almost there guys"
+    },
+    {
+      "timestamp": "2022-10-04T02:40:20.537Z",
+      "author_id": "241835484341338115",
+      "text": "2022"
+    },
+    {
+      "timestamp": "2022-10-04T02:40:18.226Z",
+      "author_id": "241835484341338115",
+      "text": "apparently sao takes place in like a month"
+    },
+    {
+      "timestamp": "2022-10-04T02:39:50.429Z",
+      "author_id": "241835484341338115",
+      "text": "sick 2022 sao reference😩"
+    },
+    {
+      "timestamp": "2022-10-04T02:25:07.463Z",
+      "author_id": "619385101473677312",
+      "text": "b.k"
+    },
+    {
+      "timestamp": "2022-10-04T02:25:01.35Z",
+      "author_id": "619385101473677312",
+      "text": "before discord ktitens"
+    },
+    {
+      "timestamp": "2022-10-04T01:56:15.188Z",
+      "author_id": "88617833486876672",
+      "text": "and beverages"
+    },
+    {
+      "timestamp": "2022-10-04T01:55:56.363Z",
+      "author_id": "88617833486876672",
+      "text": "kirito of discord"
+    },
+    {
+      "timestamp": "2022-10-04T01:55:47.231Z",
+      "author_id": "170707552495992833",
+      "text": "LMAOO"
+    },
+    {
+      "timestamp": "2022-10-04T01:55:42.572Z",
+      "author_id": "88617833486876672",
+      "text": "beater xd"
+    },
+    {
+      "timestamp": "2022-10-04T01:55:29.779Z",
+      "author_id": "170707552495992833",
+      "text": "alright beta tester"
+    },
+    {
+      "timestamp": "2022-10-04T01:54:04.941Z",
+      "author_id": "88617833486876672",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-04T01:37:43.31Z",
+      "author_id": "281466863270232074",
+      "text": "https://tenor.com/view/i-am-suffering-suffer-pain-sad-minion-gif-19489990"
+    },
+    {
+      "timestamp": "2022-10-04T01:36:26.693Z",
+      "author_id": "170707552495992833",
+      "text": "😎"
+    },
+    {
+      "timestamp": "2022-10-03T23:28:54.058Z",
+      "author_id": "869320557672423455",
+      "text": "hi lil bro"
+    },
+    {
+      "timestamp": "2022-10-03T23:27:44.695Z",
+      "author_id": "316384186573520898",
+      "text": "\u003c@305390566693404673\u003e will you come to goat field trip"
+    },
+    {
+      "timestamp": "2022-10-03T23:27:00.179Z",
+      "author_id": "869320557672423455",
+      "text": "they have the same hair"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:59.013Z",
+      "author_id": "393069508027351051",
+      "text": "my house gonna be a petting zoo"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:56.594Z",
+      "author_id": "869320557672423455",
+      "text": "i felt bad"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:55.137Z",
+      "author_id": "869320557672423455",
+      "text": "i accidentally called a guy named David yesterday clem"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:54.391Z",
+      "author_id": "619385101473677312",
+      "text": "acmFeedGrassToGoats"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:50.519Z",
+      "author_id": "316384186573520898",
+      "text": "pet his house"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:43.769Z",
+      "author_id": "619385101473677312",
+      "text": "I still have yet to see clem"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:42.123Z",
+      "author_id": "869320557672423455",
+      "text": "his house i mean"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:33.187Z",
+      "author_id": "869320557672423455",
+      "text": "waitin on making an acm field trip to \u003c@393069508027351051\u003e so we can pet his goats"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:28.948Z",
+      "author_id": "316384186573520898",
+      "text": "I thought it was a ram, but it was a sheep"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:16.259Z",
+      "author_id": "619385101473677312",
+      "text": "chonky goat I lov him"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:16.137Z",
+      "author_id": "869320557672423455",
+      "text": "SO CUTE"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:13.21Z",
+      "author_id": "281466863270232074",
+      "text": "very round"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:12.569Z",
+      "author_id": "619385101473677312",
+      "text": "yeah hahaha"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:12.346Z",
+      "author_id": "869320557672423455",
+      "text": "FR"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:09.397Z",
+      "author_id": "281466863270232074",
+      "text": "Yo that goat is wild"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:06.317Z",
+      "author_id": "869320557672423455",
+      "text": "I LGOVE"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:05.255Z",
+      "author_id": "281466863270232074",
+      "text": "damn no way i thought i was oldest 😔"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:04.126Z",
+      "author_id": "869320557672423455",
+      "text": "OH MYGOAT"
+    },
+    {
+      "timestamp": "2022-10-03T23:26:00.606Z",
+      "author_id": "869320557672423455",
+      "text": "🐑"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:56.838Z",
+      "author_id": "869320557672423455",
+      "text": "WHAT IS THIS"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:54.764Z",
+      "author_id": "316384186573520898",
+      "text": "It took my friends a bit of convincing to rip me away from Steam chat"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:53.198Z",
+      "author_id": "869320557672423455",
+      "text": "A FAT ONE"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:51.33Z",
+      "author_id": "869320557672423455",
+      "text": "I SAW A GOAT"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:49.29Z",
+      "author_id": "869320557672423455",
+      "text": "WHAT IS YOUR DESCRIPTION"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:33.1Z",
+      "author_id": "619385101473677312",
+      "text": "for real, started using discord orginally to play roblox with a friend"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:17.804Z",
+      "author_id": "316384186573520898",
+      "text": "yves do be a real OG"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:17.679Z",
+      "author_id": "619385101473677312",
+      "text": "hi jacob"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:13.414Z",
+      "author_id": "619385101473677312",
+      "text": "yeah haha"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:10.588Z",
+      "author_id": "316384186573520898",
+      "text": "Nah I mean me I didn't join earlier than alan"
+    },
+    {
+      "timestamp": "2022-10-03T23:25:09.342Z",
+      "author_id": "619385101473677312",
+      "text": "oh  wai"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:59.562Z",
+      "author_id": "619385101473677312",
+      "text": "not this one haha,"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:51.779Z",
+      "author_id": "316384186573520898",
+      "text": "nope"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:38.801Z",
+      "author_id": "316384186573520898",
+      "text": "let me check"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:13.284Z",
+      "author_id": "619385101473677312",
+      "text": "I think I was a member since 2015"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:03.115Z",
+      "author_id": "619385101473677312",
+      "text": "if I had my old acc"
+    },
+    {
+      "timestamp": "2022-10-03T23:24:03.115Z",
+      "author_id": "869320557672423455",
+      "text": "i saw a lot joined in 2016"
+    },
+    {
+      "timestamp": "2022-10-03T23:23:58.509Z",
+      "author_id": "869320557672423455",
+      "text": "apparently a lot"
+    },
+    {
+      "timestamp": "2022-10-03T23:23:19.805Z",
+      "author_id": "281466863270232074",
+      "text": "yooo who joined discord earlier than this"
+    },
+    {
+      "timestamp": "2022-10-03T23:23:13.954Z",
+      "author_id": "281466863270232074",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-03T23:02:32.525Z",
+      "author_id": "316384186573520898",
+      "text": "I love it"
+    },
+    {
+      "timestamp": "2022-10-03T22:40:41.739Z",
+      "author_id": "869320557672423455",
+      "text": "Her English is so broken I’m crying"
+    },
+    {
+      "timestamp": "2022-10-03T22:40:25.152Z",
+      "author_id": "619385101473677312",
+      "text": "That’s beautiful"
+    },
+    {
+      "timestamp": "2022-10-03T22:40:14.857Z",
+      "author_id": "869320557672423455",
+      "text": "My moms reaction to the pic you sent"
+    },
+    {
+      "timestamp": "2022-10-03T22:40:08.298Z",
+      "author_id": "869320557672423455",
+      "text": "\u003c@619385101473677312\u003e"
+    },
+    {
+      "timestamp": "2022-10-03T22:16:31.716Z",
+      "author_id": "632347645201088513",
+      "text": "no, charge them 1000$ at least !!!"
+    },
+    {
+      "timestamp": "2022-10-03T21:22:13.15Z",
+      "author_id": "869320557672423455",
+      "text": "dont trap me in my room~"
+    },
+    {
+      "timestamp": "2022-10-03T21:22:07.744Z",
+      "author_id": "869320557672423455",
+      "text": "step-robot"
+    },
+    {
+      "timestamp": "2022-10-03T21:21:54.25Z",
+      "author_id": "268909280160120833",
+      "text": "Better shoot that robot"
+    },
+    {
+      "timestamp": "2022-10-03T21:21:44.32Z",
+      "author_id": "268909280160120833",
+      "text": "AI is taking over"
+    },
+    {
+      "timestamp": "2022-10-03T21:06:39.972Z",
+      "author_id": "869320557672423455",
+      "text": "hot"
+    },
+    {
+      "timestamp": "2022-10-03T21:04:56.549Z",
+      "author_id": "696847940467032164",
+      "text": "The cleaning robot went rogue and shut the door on me and wouldn't let me in 😦"
+    },
+    {
+      "timestamp": "2022-10-03T20:23:27.164Z",
+      "author_id": "88617833486876672",
+      "text": "where the squarespace sponsorship at"
+    },
+    {
+      "timestamp": "2022-10-03T20:22:47.242Z",
+      "author_id": "266403493080858624",
+      "text": "say I did wanna do that\nwhat some good resources"
+    },
+    {
+      "timestamp": "2022-10-03T20:02:04.353Z",
+      "author_id": "869320557672423455",
+      "text": "bruh frrrrr"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:54.861Z",
+      "author_id": "619385101473677312",
+      "text": "I ion even want pay just lemme help you out"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:41.772Z",
+      "author_id": "619385101473677312",
+      "text": "IM LIKE DUDE"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:38.443Z",
+      "author_id": "619385101473677312",
+      "text": "FOR REAL"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:35.36Z",
+      "author_id": "869320557672423455",
+      "text": "i'll do it for free plz"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:27.87Z",
+      "author_id": "869320557672423455",
+      "text": "and cried"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:26.646Z",
+      "author_id": "869320557672423455",
+      "text": "looked at menu websites"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:22.889Z",
+      "author_id": "869320557672423455",
+      "text": "bro i've like"
+    },
+    {
+      "timestamp": "2022-10-03T20:01:04.326Z",
+      "author_id": "619385101473677312",
+      "text": "and if thhey don't have one I could build them one, and then I get distracted"
+    },
+    {
+      "timestamp": "2022-10-03T20:00:45.779Z",
+      "author_id": "619385101473677312",
+      "text": "do they need an app?"
+    },
+    {
+      "timestamp": "2022-10-03T20:00:35.332Z",
+      "author_id": "619385101473677312",
+      "text": "does anyone enter like a small store / buisness and think like"
+    },
+    {
+      "timestamp": "2022-10-03T19:20:51.719Z",
+      "author_id": "619385101473677312",
+      "text": "https://tenor.com/view/food-coma-food-eat-starving-kirby-gif-4698182"
+    },
+    {
+      "timestamp": "2022-10-03T19:17:44.603Z",
+      "author_id": "388167316438777856",
+      "text": "https://tenor.com/view/kirby-kirby-stimming-kirby-happy-kirbys-dream-buffet-happy-gif-26192031"
+    },
+    {
+      "timestamp": "2022-10-03T18:44:28.908Z",
+      "author_id": "122536633546309632",
+      "text": "https://tenor.com/view/funny-gifs-good-moring-kirby-mario-gif-25816633"
+    },
+    {
+      "timestamp": "2022-10-03T18:43:50.952Z",
+      "author_id": "388167316438777856",
+      "text": "U also have a very nice pfp 2"
+    },
+    {
+      "timestamp": "2022-10-03T18:43:44.285Z",
+      "author_id": "388167316438777856",
+      "text": "Thank u"
+    },
+    {
+      "timestamp": "2022-10-03T18:42:22.696Z",
+      "author_id": "619385101473677312",
+      "text": "kirby gang kirby gang kirby gang"
+    },
+    {
+      "timestamp": "2022-10-03T18:36:18.432Z",
+      "author_id": "122536633546309632",
+      "text": "nice pfp"
+    },
+    {
+      "timestamp": "2022-10-03T06:32:28.829Z",
+      "author_id": "388167316438777856",
+      "text": "lore"
+    },
+    {
+      "timestamp": "2022-10-03T06:32:21.935Z",
+      "author_id": "388167316438777856",
+      "text": "woah"
+    },
+    {
+      "timestamp": "2022-10-03T06:04:03.553Z",
+      "author_id": "316384186573520898",
+      "text": "meincraft has lore"
+    },
+    {
+      "timestamp": "2022-10-03T03:45:05.614Z",
+      "author_id": "972572025270960202",
+      "text": "\u003c:FlushedFrank:971161832372985916\u003e"
+    },
+    {
+      "timestamp": "2022-10-03T03:03:13.883Z",
+      "author_id": "606689504165888050",
+      "text": "🤔"
+    },
+    {
+      "timestamp": "2022-10-03T03:02:51.81Z",
+      "author_id": "606689504165888050",
+      "text": "now that you mention it, I've never actually seen Jason and Java in the same room"
+    },
+    {
+      "timestamp": "2022-10-03T02:46:51.1Z",
+      "author_id": "275477745256103946",
+      "text": "sounds good, Imma be producing"
+    },
+    {
+      "timestamp": "2022-10-03T02:42:56.317Z",
+      "author_id": "619385101473677312",
+      "text": "be working on learning how to sing so when I feel comfy with how I sound i can send but idk when that will be haha"
+    },
+    {
+      "timestamp": "2022-10-03T02:42:38.602Z",
+      "author_id": "619385101473677312",
+      "text": "Dang I would love to, Im not the best at singing but im working on it"
+    },
+    {
+      "timestamp": "2022-10-03T02:39:38.105Z",
+      "author_id": "275477745256103946",
+      "text": "?"
+    },
+    {
+      "timestamp": "2022-10-03T02:39:37.137Z",
+      "author_id": "275477745256103946",
+      "text": "\u003c@619385101473677312\u003e I need vocals, got some"
+    },
+    {
+      "timestamp": "2022-10-03T02:35:22.785Z",
+      "author_id": "316384186573520898",
+      "text": "Biased"
+    },
+    {
+      "timestamp": "2022-10-03T02:28:05.387Z",
+      "author_id": "869320557672423455",
+      "text": "Therefore Jason is a racist and an anti vaxxer"
+    },
+    {
+      "timestamp": "2022-10-03T02:25:15.58Z",
+      "author_id": "268909280160120833",
+      "text": "Jason is actually Java"
+    },
+    {
+      "timestamp": "2022-10-03T02:25:04.601Z",
+      "author_id": "268909280160120833",
+      "text": "coincidence, I think not"
+    },
+    {
+      "timestamp": "2022-10-03T02:24:40.608Z",
+      "author_id": "268909280160120833",
+      "text": "Jason and Java both start with a J"
+    },
+    {
+      "timestamp": "2022-10-03T02:23:08.943Z",
+      "author_id": "972572025270960202",
+      "text": "This is the definitive video on Java\n\nhttps://youtu.be/m4-HM_sCvtQ"
+    },
+    {
+      "timestamp": "2022-10-03T01:41:17.874Z",
+      "author_id": "632347645201088513",
+      "text": "javascript u got"
+    },
+    {
+      "timestamp": "2022-10-03T01:41:10.399Z",
+      "author_id": "88617833486876672",
+      "text": "gross"
+    },
+    {
+      "timestamp": "2022-10-03T01:40:15.617Z",
+      "author_id": "674490747319484447",
+      "text": "so turn java right back into java?"
+    },
+    {
+      "timestamp": "2022-10-03T01:37:14.426Z",
+      "author_id": "88617833486876672",
+      "text": "but if \u003c@674490747319484447\u003e drops code in java i can translate it to something not gross"
+    },
+    {
+      "timestamp": "2022-10-03T01:36:57.495Z",
+      "author_id": "88617833486876672",
+      "text": "i dont"
+    },
+    {
+      "timestamp": "2022-10-03T01:34:02.236Z",
+      "author_id": "632347645201088513",
+      "text": "u code Java since when"
+    },
+    {
+      "timestamp": "2022-10-03T01:32:06.811Z",
+      "author_id": "88617833486876672",
+      "text": "https://ide.onelang.io/ o boy now i can turn all my java code into anything that isnt java"
+    },
+    {
+      "timestamp": "2022-10-02T19:32:46.461Z",
+      "author_id": "619385101473677312",
+      "text": "Tytytyty"
+    },
+    {
+      "timestamp": "2022-10-02T18:41:30.342Z",
+      "author_id": "316384186573520898",
+      "text": "mine not pine"
+    },
+    {
+      "timestamp": "2022-10-02T18:41:23.928Z",
+      "author_id": "316384186573520898",
+      "text": "woah.. Cave Story Halloween sprites are a gold pine for halloween pfps"
+    },
+    {
+      "timestamp": "2022-10-02T18:36:48.353Z",
+      "author_id": "869320557672423455",
+      "text": "Yves I like your pfp"
+    },
+    {
+      "timestamp": "2022-10-02T18:29:45.809Z",
+      "author_id": "619385101473677312",
+      "text": "Hahaha"
+    },
+    {
+      "timestamp": "2022-10-02T18:27:55.284Z",
+      "author_id": "316384186573520898",
+      "text": "In a game I was playing I noticed that there were quite a few paintings and posters that had me like \"wait a second...\""
+    },
+    {
+      "timestamp": "2022-10-02T18:02:17.045Z",
+      "author_id": "619385101473677312",
+      "text": "https://www.instagram.com/reel/CjODfRDpLKU/?igshid=ZWFiZDJlMTg="
+    },
+    {
+      "timestamp": "2022-10-02T18:02:13.915Z",
+      "author_id": "619385101473677312",
+      "text": "Dis one for Charlie"
+    },
+    {
+      "timestamp": "2022-10-02T10:51:34.176Z",
+      "author_id": "268909280160120833",
+      "text": "freeeg"
+    },
+    {
+      "timestamp": "2022-10-02T10:39:37.897Z",
+      "author_id": "364857540745625612",
+      "text": "final frog for the day"
+    },
+    {
+      "timestamp": "2022-10-02T10:24:16.835Z",
+      "author_id": "364857540745625612",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T10:23:11.61Z",
+      "author_id": "364857540745625612",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T10:18:02.5Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T10:17:47.304Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T10:15:57.575Z",
+      "author_id": "388932724347502592",
+      "text": "https://youtu.be/GjfI7rJZd6Q?t=170"
+    },
+    {
+      "timestamp": "2022-10-02T10:04:08.636Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T10:00:39.085Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T09:46:30.227Z",
+      "author_id": "388932724347502592",
+      "text": "\u003c@268909280160120833\u003e"
+    },
+    {
+      "timestamp": "2022-10-02T09:46:25.002Z",
+      "author_id": "388932724347502592",
+      "text": "https://youtu.be/tWsiF6ASC70?t=33"
+    },
+    {
+      "timestamp": "2022-10-02T08:52:04.918Z",
+      "author_id": "205862976689799168",
+      "text": "https://media.discordapp.net/attachments/764576344766939176/816709172673380362/image0.gif"
+    },
+    {
+      "timestamp": "2022-10-02T08:49:09.147Z",
+      "author_id": "388167316438777856",
+      "text": "https://media.discordapp.net/attachments/860198412213420052/984808294541574174/770067952980459541.gif"
+    },
+    {
+      "timestamp": "2022-10-02T08:37:35.952Z",
+      "author_id": "388932724347502592",
+      "text": "hes so cute"
+    },
+    {
+      "timestamp": "2022-10-02T08:36:21.25Z",
+      "author_id": "275477745256103946",
+      "text": "no, just a cool homie"
+    },
+    {
+      "timestamp": "2022-10-02T08:35:26.808Z",
+      "author_id": "388932724347502592",
+      "text": "did u see this chonker in real life 🥺"
+    },
+    {
+      "timestamp": "2022-10-02T08:35:14.465Z",
+      "author_id": "388932724347502592",
+      "text": "is this your photo"
+    },
+    {
+      "timestamp": "2022-10-02T08:34:59.888Z",
+      "author_id": "275477745256103946",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T08:34:04.643Z",
+      "author_id": "260901399729012736",
+      "text": "I must watch this every October"
+    },
+    {
+      "timestamp": "2022-10-02T08:15:44.214Z",
+      "author_id": "275477745256103946",
+      "text": "Over the Garden Wall time"
+    },
+    {
+      "timestamp": "2022-10-02T08:12:01.372Z",
+      "author_id": "260901399729012736",
+      "text": "day 2"
+    },
+    {
+      "timestamp": "2022-10-02T08:11:05.111Z",
+      "author_id": "88617833486876672",
+      "text": "black president gang"
+    },
+    {
+      "timestamp": "2022-10-02T08:09:23.666Z",
+      "author_id": "388932724347502592",
+      "text": "that gif broke my discord"
+    },
+    {
+      "timestamp": "2022-10-02T08:09:18.298Z",
+      "author_id": "388932724347502592",
+      "text": "i thought that was barrack obama"
+    },
+    {
+      "timestamp": "2022-10-02T08:08:10.04Z",
+      "author_id": "364857540745625612",
+      "text": "sensational"
+    },
+    {
+      "timestamp": "2022-10-02T08:04:57.678Z",
+      "author_id": "131555215555035136",
+      "text": "\u003c@364857540745625612\u003e"
+    },
+    {
+      "timestamp": "2022-10-02T08:04:37.429Z",
+      "author_id": "131555215555035136",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T08:00:30.224Z",
+      "author_id": "388932724347502592",
+      "text": "picasso!!!"
+    },
+    {
+      "timestamp": "2022-10-02T07:47:01.441Z",
+      "author_id": "260901399729012736",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:46:08.425Z",
+      "author_id": "393069508027351051",
+      "text": "the man is just too nice"
+    },
+    {
+      "timestamp": "2022-10-02T06:45:51.27Z",
+      "author_id": "393069508027351051",
+      "text": "https://twitter.com/vinarr__/status/1576294898822967301?s=46\u0026t=t2CdeoJZUg5kKV3KneVMiw \u003c@131555215555035136\u003e i’ve converted to a messi stan"
+    },
+    {
+      "timestamp": "2022-10-02T06:44:00.674Z",
+      "author_id": "388932724347502592",
+      "text": "heimerstinker, u"
+    },
+    {
+      "timestamp": "2022-10-02T06:43:29.431Z",
+      "author_id": "364857540745625612",
+      "text": "ya"
+    },
+    {
+      "timestamp": "2022-10-02T06:43:04.069Z",
+      "author_id": "388932724347502592",
+      "text": "\u003c@364857540745625612\u003e minecraft"
+    },
+    {
+      "timestamp": "2022-10-02T06:41:33.53Z",
+      "author_id": "393069508027351051",
+      "text": "that first one is nice"
+    },
+    {
+      "timestamp": "2022-10-02T06:40:55.978Z",
+      "author_id": "619385101473677312",
+      "text": "It’s crazy how that would take someone so much time and AI is just like yeet"
+    },
+    {
+      "timestamp": "2022-10-02T06:40:37.117Z",
+      "author_id": "619385101473677312",
+      "text": "Wow"
+    },
+    {
+      "timestamp": "2022-10-02T06:39:32.293Z",
+      "author_id": "364857540745625612",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:35:55.925Z",
+      "author_id": "364857540745625612",
+      "text": "https://tenor.com/view/walter-white-walter-crying-walter-dying-gif-20964719"
+    },
+    {
+      "timestamp": "2022-10-02T06:35:46.457Z",
+      "author_id": "619385101473677312",
+      "text": "Humanity is no more"
+    },
+    {
+      "timestamp": "2022-10-02T06:35:28.803Z",
+      "author_id": "88617833486876672",
+      "text": "imagine getting 4-up'd by ai"
+    },
+    {
+      "timestamp": "2022-10-02T06:35:12.327Z",
+      "author_id": "619385101473677312",
+      "text": "FEOG IS SIDEWAYS"
+    },
+    {
+      "timestamp": "2022-10-02T06:35:02Z",
+      "author_id": "393069508027351051",
+      "text": "who did it better"
+    },
+    {
+      "timestamp": "2022-10-02T06:34:48.671Z",
+      "author_id": "869320557672423455",
+      "text": "sure"
+    },
+    {
+      "timestamp": "2022-10-02T06:34:28.873Z",
+      "author_id": "364857540745625612",
+      "text": "can we get NotSoBot"
+    },
+    {
+      "timestamp": "2022-10-02T06:34:16.613Z",
+      "author_id": "364857540745625612",
+      "text": ".meme sideways frog"
+    },
+    {
+      "timestamp": "2022-10-02T06:33:56.761Z",
+      "author_id": "869320557672423455",
+      "text": "thank"
+    },
+    {
+      "timestamp": "2022-10-02T06:33:51.296Z",
+      "author_id": "388932724347502592",
+      "text": "i like that"
+    },
+    {
+      "timestamp": "2022-10-02T06:33:50.444Z",
+      "author_id": "364857540745625612",
+      "text": "sideways frog"
+    },
+    {
+      "timestamp": "2022-10-02T06:33:29.848Z",
+      "author_id": "869320557672423455",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:33:16.81Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:32:40.142Z",
+      "author_id": "388932724347502592",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:30:47.738Z",
+      "author_id": "388932724347502592",
+      "text": "WOW!!! PICASSO I LIKE THAT"
+    },
+    {
+      "timestamp": "2022-10-02T06:29:58.423Z",
+      "author_id": "364857540745625612",
+      "text": "frog1.png"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:52.685Z",
+      "author_id": "869320557672423455",
+      "text": "no i just wanna talk to deanna without interrupting yall"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:51.884Z",
+      "author_id": "266403493080858624",
+      "text": "she is"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:36.135Z",
+      "author_id": "869320557672423455",
+      "text": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:11.649Z",
+      "author_id": "88617833486876672",
+      "text": "the moment i joined she dipped"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:08.576Z",
+      "author_id": "88617833486876672",
+      "text": "it's because karni thinks shes too cool for me"
+    },
+    {
+      "timestamp": "2022-10-02T06:12:02.566Z",
+      "author_id": "393069508027351051",
+      "text": "he now a teen goat they grow quick af"
+    },
+    {
+      "timestamp": "2022-10-02T06:11:57.543Z",
+      "author_id": "393069508027351051",
+      "text": "i forgot to take a picture of a baby goat we had"
+    },
+    {
+      "timestamp": "2022-10-02T06:11:45.68Z",
+      "author_id": "393069508027351051",
+      "text": "omg karni"
+    },
+    {
+      "timestamp": "2022-10-02T06:11:24.198Z",
+      "author_id": "614719335235059713",
+      "text": "We all joining vc wat"
+    },
+    {
+      "timestamp": "2022-10-02T06:09:35.952Z",
+      "author_id": "619385101473677312",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T06:08:50.742Z",
+      "author_id": "205862976689799168",
+      "text": "\u003c:meepFight:980984071427604511\u003e"
+    },
+    {
+      "timestamp": "2022-10-02T06:08:14.64Z",
+      "author_id": "869320557672423455",
+      "text": "no lol"
+    },
+    {
+      "timestamp": "2022-10-02T06:08:10.056Z",
+      "author_id": "619385101473677312",
+      "text": "Gang war gang war"
+    },
+    {
+      "timestamp": "2022-10-02T06:08:07.015Z",
+      "author_id": "869320557672423455",
+      "text": "there are multiple for a reason lmao"
+    },
+    {
+      "timestamp": "2022-10-02T06:07:48.543Z",
+      "author_id": "619385101473677312",
+      "text": "Why is social space divided haha"
+    },
+    {
+      "timestamp": "2022-10-02T05:45:38.272Z",
+      "author_id": "972572025270960202",
+      "text": "I took physics 227 without 226 too 😜"
+    },
+    {
+      "timestamp": "2022-10-02T05:44:51.799Z",
+      "author_id": "972572025270960202",
+      "text": "They don’t always enforce prereqs"
+    },
+    {
+      "timestamp": "2022-10-02T05:43:14.753Z",
+      "author_id": "358448184160419850",
+      "text": "huh howd you take assembly alongside intro cs? :0"
+    },
+    {
+      "timestamp": "2022-10-02T02:22:08.188Z",
+      "author_id": "972572025270960202",
+      "text": "Yeah assembly is worse, that was the first class I took as a CS major along with Intro to CS, but it definitely made learning pointers easier"
+    },
+    {
+      "timestamp": "2022-10-02T00:53:01.359Z",
+      "author_id": "241835484341338115",
+      "text": "resident evil ass background characters"
+    },
+    {
+      "timestamp": "2022-10-02T00:48:06.678Z",
+      "author_id": "316384186573520898",
+      "text": "Holliday lets us cheat by letting us `extern printf`, `call printf` \u003c:FlushedFrank:971161832372985916\u003e"
+    },
+    {
+      "timestamp": "2022-10-02T00:46:05.441Z",
+      "author_id": "749845465071222895",
+      "text": "Fun times"
+    },
+    {
+      "timestamp": "2022-10-02T00:45:59.375Z",
+      "author_id": "749845465071222895",
+      "text": "Wait till you take assembly"
+    },
+    {
+      "timestamp": "2022-10-02T00:42:09.182Z",
+      "author_id": "972572025270960202",
+      "text": "Wow I just saw rule 6… highly discriminatory and totalitarian"
+    },
+    {
+      "timestamp": "2022-10-02T00:41:36.002Z",
+      "author_id": "619385101473677312",
+      "text": "Me writing 6 lines of code just to say hi in C++, while it only takes one in python"
+    },
+    {
+      "timestamp": "2022-10-02T00:39:47.623Z",
+      "author_id": "869320557672423455",
+      "text": "So much"
+    },
+    {
+      "timestamp": "2022-10-02T00:39:45.186Z",
+      "author_id": "869320557672423455",
+      "text": "I love this"
+    },
+    {
+      "timestamp": "2022-10-02T00:39:24.658Z",
+      "author_id": "972572025270960202",
+      "text": "But I think for DS it really shows you how they work"
+    },
+    {
+      "timestamp": "2022-10-02T00:38:55.152Z",
+      "author_id": "972572025270960202",
+      "text": "Yeah you need to write aloooooooooooooooot of lines to make anything really useful in C/C++"
+    },
+    {
+      "timestamp": "2022-10-02T00:27:24.494Z",
+      "author_id": "619385101473677312",
+      "text": ""
+    },
+    {
+      "timestamp": "2022-10-02T00:25:45.787Z",
+      "author_id": "88617833486876672",
+      "text": "but it is absolutely not practical for if u want to write a real application"
+    },
+    {
+      "timestamp": "2022-10-02T00:25:30.407Z",
+      "author_id": "88617833486876672",
+      "text": "i think c/c++ is good for learning how the computer works at a low ish level"
+    },
+    {
+      "timestamp": "2022-10-02T00:23:38.687Z",
+      "author_id": "972572025270960202",
+      "text": "I would say regardless it’s best to do everything in C/C++ just cause it’s they’re more challenging languages than nearly anything else you’ll use academically… learning a new language is always challenging but going from C to JavaScript is a hell of a lot easier than the other way around"
+    },
+    {
+      "timestamp": "2022-10-02T00:08:55.157Z",
+      "author_id": "88617833486876672",
+      "text": "like my database class we could use whatever we want as long as we had a sql database"
+    },
+    {
+      "timestamp": "2022-10-02T00:08:32.535Z",
+      "author_id": "88617833486876672",
+      "text": "if ur doing like a project based class like 362 then you can choose whatever the fuck stack u want as long as u have a finished product to present"
+    },
+    {
+      "timestamp": "2022-10-02T00:08:03.465Z",
+      "author_id": "632347645201088513",
+      "text": "DS probly in cpp entirely"
+    },
+    {
+      "timestamp": "2022-10-02T00:07:59.605Z",
+      "author_id": "88617833486876672",
+      "text": "obv like if ur doing a class on something specific like frontend ur program is in html/css/js"
+    },
+    {
+      "timestamp": "2022-10-02T00:07:34.504Z",
+      "author_id": "88617833486876672",
+      "text": "depending on the class some profs are like \"yea u can submit ur program in python or cpp\""
+    },
+    {
+      "timestamp": "2022-10-02T00:06:57.33Z",
+      "author_id": "88617833486876672",
+      "text": "kinda depends"
+    },
+    {
+      "timestamp": "2022-10-02T00:06:49.806Z",
+      "author_id": "88617833486876672",
+      "text": "hm"
+    },
+    {
+      "timestamp": "2022-10-02T00:05:51.163Z",
+      "author_id": "632347645201088513",
+      "text": "upper div classes let u choose the language"
+    },
+    {
+      "timestamp": "2022-10-01T23:12:51.116Z",
+      "author_id": "467042519860117505",
+      "text": "i'm taking CS 131, data structures.\nWe're learning data structures in CPP.\nAre most of the classes at CSUF taught in CPP?\nor do they just say, \"do this however you want, just get it done\" lol"
+    },
+    {
+      "timestamp": "2022-10-01T19:08:50.059Z",
+      "author_id": "869320557672423455",
+      "text": "wait that's a great idea ^"
+    },
+    {
+      "timestamp": "2022-10-01T19:08:25.484Z",
+      "author_id": "316384186573520898",
+      "text": "McCarthy hall ghost hunt!"
+    },
+    {
+      "timestamp": "2022-10-01T19:07:57.494Z",
+      "author_id": "619385101473677312",
+      "text": "now you gotta take calc 3 and get a peice of paper so you can afford an appartment"
+    },
+    {
+      "timestamp": "2022-10-01T19:07:44.447Z",
+      "author_id": "619385101473677312",
+      "text": "acm you've been tricked"
+    },
+    {
+      "timestamp": "2022-10-01T18:43:53.649Z",
+      "author_id": "88617833486876672",
+      "text": "acm trick or treating?"
+    },
+    {
+      "timestamp": "2022-10-01T18:43:34.652Z",
+      "author_id": "869320557672423455",
+      "text": "ye we gonna try to:)"
+    },
+    {
+      "timestamp": "2022-10-01T18:42:31.644Z",
+      "author_id": "619385101473677312",
+      "text": "will acm do halloween event 🙀"
+    },
+    {
+      "timestamp": "2022-10-01T18:24:07.324Z",
+      "author_id": "170707552495992833",
+      "text": "https://tenor.com/view/skeleton-dance-skeletons-dancing-cool-gif-12587740"
+    },
+    {
+      "timestamp": "2022-10-01T18:24:00.714Z",
+      "author_id": "170707552495992833",
+      "text": "It’s spoopy skeleton time"
+    },
+    {
+      "timestamp": "2022-10-01T18:19:29.112Z",
+      "author_id": "869320557672423455",
+      "text": "BEST MONTH"
+    },
+    {
+      "timestamp": "2022-10-01T18:19:26.312Z",
+      "author_id": "869320557672423455",
+      "text": "HAPPY OCTOBER"
+    },
+    {
+      "timestamp": "2022-10-01T18:03:22.707Z",
+      "author_id": "260901399729012736",
+      "text": "Happy first day of October 🎃"
+    },
+    {
+      "timestamp": "2022-10-01T17:53:56.675Z",
+      "author_id": "869320557672423455",
+      "text": "No it’s supposed to be a costume of something else not just myself"
+    },
+    {
+      "timestamp": "2022-10-01T17:53:33.525Z",
+      "author_id": "88617833486876672",
+      "text": "karni gonna show up as a goat"
+    },
+    {
+      "timestamp": "2022-10-01T17:53:32.013Z",
+      "author_id": "869320557672423455",
+      "text": "i would too it’s fun"
+    },
+    {
+      "timestamp": "2022-10-01T17:53:23.895Z",
+      "author_id": "869320557672423455",
+      "text": "i think some people do for fun"
+    },
+    {
+      "timestamp": "2022-10-01T17:52:56.993Z",
+      "author_id": "1010689557768962179",
+      "text": "okay. also does everyone dress up on Halloween? in the uni?"
+    },
+    {
+      "timestamp": "2022-10-01T17:51:48.938Z",
+      "author_id": "1010689557768962179",
+      "text": "will do. thanks"
+    },
+    {
+      "timestamp": "2022-10-01T17:46:27.086Z",
+      "author_id": "869320557672423455",
+      "text": "^"
+    },
+    {
+      "timestamp": "2022-10-01T17:46:19.954Z",
+      "author_id": "88617833486876672",
+      "text": "u could follow @asicsuf on insta"
+    },
+    {
+      "timestamp": "2022-10-01T17:46:15.04Z",
+      "author_id": "869320557672423455",
+      "text": "I mean I’m assuming"
+    },
+    {
+      "timestamp": "2022-10-01T17:46:10.353Z",
+      "author_id": "869320557672423455",
+      "text": "Gotta check in with the social clubs"
+    },
+    {
+      "timestamp": "2022-10-01T17:45:57.488Z",
+      "author_id": "869320557672423455",
+      "text": "with the frats and sororities there’s prob def events"
+    },
+    {
+      "timestamp": "2022-10-01T17:45:39.712Z",
+      "author_id": "869320557672423455",
+      "text": "not sure tbh"
+    },
+    {
+      "timestamp": "2022-10-01T17:43:05.573Z",
+      "author_id": "1010689557768962179",
+      "text": "are there any events for Halloween on campus?"
+    },
+    {
+      "timestamp": "2022-10-01T07:14:58.18Z",
+      "author_id": "260901399729012736",
+      "text": "Is there an ethically correct answer or nah? Good question."
+    }
+  ]
+}
