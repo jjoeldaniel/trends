@@ -38,7 +38,7 @@ fn read_input(file_path: &str) -> Vec<String> {
             if !message.text.is_empty() {
                 let x =
                     message_data.authors[&message.author_id].name.clone() + ": " + &message.text;
-                inputs.push(x);
+                inputs.push(x.trim().to_string());
             }
         }
     }
